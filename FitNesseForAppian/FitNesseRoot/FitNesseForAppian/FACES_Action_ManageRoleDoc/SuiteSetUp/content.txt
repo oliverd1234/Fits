@@ -1,0 +1,15 @@
+!***> Initialization
+!| script                     |com.appiancorp.ps.automatedtest.fixture.FTALoginFixture                                         |
+|setup with browser           |FIREFOX                                                                                         |
+|set appian url to            |${URL}                                                                                          |
+|set appian version to        |${sites.version}                                                                                |
+|set appian locale to         |en_US                                                                                           |
+|set timeout seconds to       |40                                                                                              |
+|set screenshot path to       |${automated.testing.home}/FitNesseRoot/FACES_Action_ManageRoleDoc/TESS_FTA_Testcases/screenshot/|
+|set stop on error to         |true                                                                                            |
+|set take error screenshots to|true                                                                                            |
+|set test variable            |DATEXXX                     |with                     |${!today(YYYY-MM-DD)}                    |
+|set start datetime                                                                                                            |
+***!
+
+

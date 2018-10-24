@@ -1,0 +1,34 @@
+!***> Loginto FTA
+!|script                                                                    |
+|open                      |${URL}                                          |
+|custom login with username|fitnesse.administrator|and password|Qwertyuiop2@|
+|wait for                  |${wait}                                         |
+***!
+
+!***> Click on Manage Role Documentation from Actions in FTA Dev
+|script                                                                                       |
+|click on link              |Action                                                           |
+|wait for                   |${wait1}                                                         |
+|click on application filter|FTA Access Control Entry System                                  |
+|wait for                   |${wait1}                                                         |
+|click on action            |Manage Role Documentation                                        |
+|wait for                   |${wait1}                                                         |
+|populate field             |System      |with|TrAMS                                          |
+|wait for                   |${wait}                                                          |
+|populate field             |Organization|with|1238 - Metropolitan Transportation Agency (MTA)|
+***!
+
+!***> Manage Role Documentation - Upload New Docs
+!|script                                                                                                   |
+|click on button|Add[1]                                                                                    |
+|populate       |FILE_UPLOAD    |field     |[1]|with|C:\Users\SrikanthMuralidharan\Downloads\SampleDoc.docx|
+|populate field |Document Name  |with value|Sample Test Doc                                                |
+|populate field |Description    |with value|Sample Justification Document for TrAMS Attorney               |
+|populate field |System[2]      |with      |TrAMS                                                          |
+|populate field |Cost Center[2] |with      |78500 - Region 5                                               |
+|wait for       |${wait1}                                                                                  |
+|populate field |Organization[2]|with      |1208 - Bay Metropolitan Transit Authority (BMTA)               |
+|wait for       |${wait1}                                                                                  |
+|click on button|Upload Document                                                                           |
+***!
+

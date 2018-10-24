@@ -1,0 +1,29 @@
+!***> Loginto FTA
+!|script                                                                    |
+|open                      |${URL}                                          |
+|custom login with username|fitnesse.administrator|and password|Qwertyuiop2@|
+|wait for                  |${wait}                                         |
+***!
+
+
+
+!***> Click on Actions - > Perform Preliminary Review
+|script                                                                    |
+|click on link              |Action                                        |
+|wait for                   |${wait1}                                      |
+|click on action			|Perform Preliminary Review		               |
+|wait for                   |${wait1}                                      |
+***!
+
+
+!***>  Populate Grid Elements 
+|script |
+| populate grid | | column | Eligible | row | 1 | with | Yes |
+| populate grid | | column | Comments | row | 1 | with | "This isn't a comment" |
+
+***!
+
+!***> Save and Continue
+|script |
+|click on button| Save |
+***!

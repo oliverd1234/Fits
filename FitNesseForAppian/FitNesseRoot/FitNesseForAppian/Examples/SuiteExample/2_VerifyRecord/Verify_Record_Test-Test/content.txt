@@ -1,0 +1,6 @@
+!*** Test-Test
+This isn't a very interesting Test.
+|script                       |
+|logout                       |
+|tear down |
+***!

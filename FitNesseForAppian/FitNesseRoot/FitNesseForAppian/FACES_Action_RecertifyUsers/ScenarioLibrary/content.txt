@@ -1,0 +1,10 @@
+|scenario                   |file upload to nodes|Node |@Node               |
+|click on application filter|TESS Administrator Utilities                   |
+|wait for                   |${wait1}                                       |
+|click on action            |User Login Upload Utility                      |
+|wait for                   |${wait1}                                       |
+|populate field             |Selected Node       |with |@Node               |
+|wait for                   |${wait1}                                       |
+|populate                   |FILE_UPLOAD         |field|[1]|with|${filepath}|
+|click on button            |Submit                                         |
+

@@ -1,0 +1,30 @@
+!***> Loginto FTA
+!|script                                                                    |
+|open                      |${URL}                                          |
+|custom login with username|fitnesse.administrator|and password|Qwertyuiop2@|
+|wait for                  |${wait}                                         |
+***!
+
+
+
+!***> Click on Actions - > Manage Review Teams
+|script                                                                    |
+|click on link              |Action                                        |
+|wait for                   |${wait1}                                      |
+|click on action			|Manage Review Teams		               |
+|wait for                   |${wait1}                                      |
+***!
+
+
+!***>  New Review Team
+|script |
+|click on link              |New Review Team                                    |
+|populate field |Team Name     |with|Smitty Werben-Jaeger-Man-Jensen             |
+|wait for                   |${wait1}                                      |
+|populate field |Team Leader | with value | [2]|
+|wait for                   |${wait1}                                      |
+|populate field |Description     |with|      He was Number One             |
+|wait for                   |${wait1}                                      |
+|click on button              |Add Review Team                                    |
+***!
+

@@ -1,0 +1,33 @@
+!***> Loginto FTA Dev
+!|script                                                                  |
+|wait for           |${wait}                                              |
+|login with username|srikanth.muralidharan|and password|SrikanthManga@4606|
+|wait for           |${wait}                                              |
+|open               |${ftaDev}                                            |
+***!
+
+!***> Download Files from FTA Dev
+|script                                      |
+|wait for            |${wait}                |
+|download Audit Files|login-audit.csv.${Date}|
+|wait for            |${wait1}               |
+***!
+
+!***> Upload Files to Appian
+!|script                   |
+|open         |${appianDev}|
+|wait for     |${wait1}    |
+|click on link|Action      |
+|wait for     |${wait1}    |
+***!
+
+!***> File upload for Node1
+|script                         |
+|file upload to nodes Node|Node1|
+***!
+
+
+!***> Delete the file from dowloands folder
+|script                             |
+|delete file|login-audit.csv.${Date}|
+***!

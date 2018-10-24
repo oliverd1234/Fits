@@ -1,0 +1,22 @@
+!***> Loginto FTA
+!|script                                                                    |
+|open                      |${URL}                                          |
+|custom login with username|fitnesse.administrator|and password|Qwertyuiop2@|
+|wait for                  |${wait}                                         |
+***!
+
+
+
+!***> Click on Actions - > Reassign Reviews
+|script                                                                    |
+|click on link              |Action                                        |
+|wait for                   |${wait1}                                      |
+|click on action			|Reassign Review		               |
+|wait for                   |${wait1}                                      |
+#| populate grid | [1] | with value |  |
+#| populate grid | Active Teams |column|[1]|row|[1]| with value | | 
+| click on grid | Active Teams| column | 1 | row | 1 |
+***!
+
+
+

@@ -1,0 +1,149 @@
+<?xml version="1.0"?>
+<testResults>
+  <FitNesseVersion>v20160515</FitNesseVersion>
+  <rootPath>FitNesseForAppian.DGS_Reassign_Reviews.Reassign_Reviews_Test_Suite.Reassign_Some_Reviews</rootPath>
+    <result>
+    <counts>
+      <right>0</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>1</exceptions>
+    </counts>
+    <date>2018-10-24T12:10:24-04:00</date>
+    <runTimeInMillis>4</runTimeInMillis>
+    <content></content>
+    <relativePageName>SuiteSetUp</relativePageName>
+          </result>
+  <result>
+    <counts>
+      <right>0</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>2</exceptions>
+    </counts>
+    <date>2018-10-24T12:10:24-04:00</date>
+    <runTimeInMillis>2</runTimeInMillis>
+    <content>&lt;br/&gt;&lt;div class="collapsible closed"&gt;&lt;ul&gt;&lt;li&gt;&lt;a href='#' class='expandall'&gt;Expand&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='#' class='collapseall'&gt;Collapse&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+	&lt;p class="title"&gt;Initialization&lt;/p&gt;
+	&lt;div&gt;&lt;table&gt;
+	&lt;tr&gt;
+		&lt;td class="error"&gt;script&lt;hr/&gt; &lt;span class="fit_label"&gt;Could not find fixture: script.&lt;/span&gt;&lt;/td&gt;
+		&lt;td colspan="3"&gt;com.appiancorp.ps.automatedtest.fixture.FTALoginFixture&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;setup with browser&lt;/td&gt;
+		&lt;td colspan="3"&gt;CHROME&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;set appian url to&lt;/td&gt;
+		&lt;td colspan="3"&gt;&lt;span class="meta"&gt;undefined variable: URL&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;set appian version to&lt;/td&gt;
+		&lt;td colspan="3"&gt;18.2&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;set appian locale to&lt;/td&gt;
+		&lt;td colspan="3"&gt;en_US&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;set timeout seconds to&lt;/td&gt;
+		&lt;td colspan="3"&gt;40&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;set screenshot path to&lt;/td&gt;
+		&lt;td colspan="3"&gt;C:/FitNesseForAppian/FitNesseRoot/FACES_Action_CreateNewUser/TESS_FTA_Testcases/screenshot/&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;set stop on error to&lt;/td&gt;
+		&lt;td colspan="3"&gt;true&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;set take error screenshots to&lt;/td&gt;
+		&lt;td colspan="3"&gt;true&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;set test variable&lt;/td&gt;
+		&lt;td&gt;DATEXXX&lt;/td&gt;
+		&lt;td&gt;with&lt;/td&gt;
+		&lt;td&gt;${!today(YYYY-MM-DD)}&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td colspan="4"&gt;set start datetime&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;div class="collapsible closed"&gt;&lt;ul&gt;&lt;li&gt;&lt;a href='#' class='expandall'&gt;Expand&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='#' class='collapseall'&gt;Collapse&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+	&lt;p class="title"&gt;Loginto FTA&lt;/p&gt;
+	&lt;div&gt;&lt;table&gt;
+	&lt;tr&gt;
+		&lt;td colspan="4" class="error"&gt;script&lt;hr/&gt; &lt;span class="fit_label"&gt;Could not find fixture: script.&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;open&lt;/td&gt;
+		&lt;td colspan="3"&gt;&lt;span class="meta"&gt;undefined variable: URL&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;custom login with username&lt;/td&gt;
+		&lt;td&gt;fitnesse.administrator&lt;/td&gt;
+		&lt;td&gt;and password&lt;/td&gt;
+		&lt;td&gt;Qwertyuiop2@&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;wait for&lt;/td&gt;
+		&lt;td colspan="3"&gt;&lt;span class="meta"&gt;undefined variable: wait&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;div class="collapsible closed"&gt;&lt;ul&gt;&lt;li&gt;&lt;a href='#' class='expandall'&gt;Expand&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='#' class='collapseall'&gt;Collapse&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+	&lt;p class="title"&gt;Click on Actions - &amp;gt; Reassign Reviews&lt;/p&gt;
+	&lt;div&gt;&lt;table&gt;
+	&lt;tr&gt;
+		&lt;td colspan="4" class="error"&gt;script&lt;hr/&gt; &lt;span class="fit_label"&gt;Could not find fixture: script.&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;click on link&lt;/td&gt;
+		&lt;td colspan="3"&gt;Action&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;wait for&lt;/td&gt;
+		&lt;td colspan="3"&gt;&lt;span class="meta"&gt;undefined variable: wait1&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;click on action&lt;/td&gt;
+		&lt;td colspan="3"&gt;Reassign Reviews&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;wait for&lt;/td&gt;
+		&lt;td colspan="3"&gt;&lt;span class="meta"&gt;undefined variable: wait1&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;populate grid&lt;/td&gt;
+		&lt;td&gt;1&lt;/td&gt;
+		&lt;td&gt;with value&lt;/td&gt;
+		&lt;td&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;</content>
+    <relativePageName>Reassign_Some_Reviews</relativePageName>
+          </result>
+  <executionLog>
+    <testSystem>fit:fit.FitServer</testSystem>
+    <command>"C:\Program Files (x86)\Java\jdk1.8.0_172\bin\java" -cp C:\FitNesseForAppian\lib\fitnesse-20160515-standalone.jar fit.FitServer DESKTOP-H7SH9FI 53169 3863</command>
+    <exitCode>3</exitCode>
+    <stdOut></stdOut>
+    <stdErr></stdErr>
+  </executionLog>
+  <finalCounts>
+    <right>0</right>
+    <wrong>0</wrong>
+    <ignores>0</ignores>
+    <exceptions>2</exceptions>
+  </finalCounts>
+  <totalRunTimeInMillis>485</totalRunTimeInMillis>
+</testResults>
+

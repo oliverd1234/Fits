@@ -1,0 +1,4 @@
+!***> Loginto FTA
+!|script                                                                                                  |
+|open                      |https://adfs.dot.gov/adfs/ls/idpinitiatedsignon.aspx?loginToRp=FTAFacesPreProd|
+|custom login with username|srikanth.muralidharan            |and password            |Srik1987           |

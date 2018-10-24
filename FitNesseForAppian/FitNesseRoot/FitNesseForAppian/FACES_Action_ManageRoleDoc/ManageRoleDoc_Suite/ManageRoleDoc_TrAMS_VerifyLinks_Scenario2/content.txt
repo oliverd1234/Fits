@@ -1,0 +1,23 @@
+!***> Loginto FTA
+!|script                                                                    |
+|open                      |${URL}                                          |
+|custom login with username|fitnesse.administrator|and password|Qwertyuiop2@|
+|wait for                  |${wait}                                         |
+***!
+
+!***> Click on Manage Role Documentation from Actions in FTA Dev
+|script                                                                                              |
+|click on link              |Action                                                                  |
+|wait for                   |${wait1}                                                                |
+|click on application filter|FTA Access Control Entry System                                         |
+|wait for                   |${wait1}                                                                |
+|click on action            |Manage Role Documentation                                               |
+|wait for                   |${wait1}                                                                |
+|populate field             |System      |with  |TrAMS                                               |
+|wait for                   |${wait}                                                                 |
+|populate field             |Organization|with  |1208 - Bay Metropolitan Transit Authority (BMTA)    |
+|select grid                |[1]         |row   |[1]                                                 |
+|select grid                |[2]         |row   |[2]                                                 |
+|verify grid                |[3]         |column|Justified Users|row|[1]|contains|fitNesseTester User|
+***!
+

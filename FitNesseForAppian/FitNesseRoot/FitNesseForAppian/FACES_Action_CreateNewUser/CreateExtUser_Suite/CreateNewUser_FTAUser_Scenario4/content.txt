@@ -1,0 +1,48 @@
+!***> Loginto FTA
+!|script                                                                    |
+|open                      |${URL}                                          |
+|custom login with username|fitnesse.administrator|and password|Qwertyuiop2@|
+|wait for                  |${wait}                                         |
+***!
+
+!***> Click on Actions from Create New User from FTA Dev
+|script                                                     |
+|click on link              |Action                         |
+|wait for                   |${wait1}                       |
+|click on application filter|FTA Access Control Entry System|
+|wait for                   |${wait1}                       |
+|click on action            |Create New User                |
+|wait for                   |${wait1}                       |
+|click on radio option      |FTA Staff                      |
+|wait for                   |${wait1}                       |
+|click on button            |Next                           |
+
+***!
+
+!***> Enter the FTA User
+!|script                                         |
+|populate field |Username |with|fitnesse.fta.user|
+|wait for       |${wait}                         |
+|select grid    |FTA Users|row |[1]              |
+|click on button|Next                            |
+|wait for       |+10 seconds                     |
+|click on button|Next                            |
+***!
+
+
+!***> Manage Roles - Role Selection & Justification Doc
+!|script                                                   |
+|click on button|Add[1]                                    |
+|populate field |System       |with value|TrAMS            |
+|wait for       |${wait1}                                  |
+|populate field |Role Category|with value|FTA Staff        |
+|wait for       |${wait1}                                  |
+|populate field |Cost Center  |with      |79000 - Region 10|
+|wait for       |${wait1}                                  |
+|select grid    |[2]          |row       |[3]              |
+|wait for       |+10 seconds                               |
+|click on button|Add[2]                                    |
+|wait for       |${wait1}                                  |
+|click on button|Activate                                  |
+***!
+

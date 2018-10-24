@@ -1,0 +1,32 @@
+!***> Loginto FTA
+!|script                                                            |
+|open                      |${URL}                                  |
+|custom login with username|fitnesse.user1|and password|Qwertyuiop2@|
+|wait for                  |${wait}                                 |
+***!
+
+!***> Click on Actions to Unlock My Account from FTA Dev
+|script                                                     |
+|click on link              |Action                         |
+|wait for                   |${wait1}                       |
+|click on application filter|FTA Access Control Entry System|
+|wait for                   |${wait1}                       |
+|click on action            |Unlock My Account              |
+|wait for                   |${wait1}                       |
+***!
+
+!***> Select Answer Security Option
+!|script                                        |
+|click on radio option|Answer security questions|
+|wait for             |${wait1}                 |
+|click on button      |Submit                   |
+***!
+
+!***> Answers Security Questions
+!|script                               |
+|populate field |Answer[1]|with|Eagles |
+|populate field |Answer[2]|with|Chennai|
+|populate field |Answer[3]|with|Adyar  |
+|click on button|Submit                |
+***!
+

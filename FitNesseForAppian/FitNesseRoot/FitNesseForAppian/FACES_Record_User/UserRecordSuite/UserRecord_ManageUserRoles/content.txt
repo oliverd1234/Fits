@@ -1,0 +1,37 @@
+!***> Loginto FTA
+!|script                                                                    |
+|open                      |${URL}                                          |
+|custom login with username|fitnesse.administrator|and password|Qwertyuiop2@|
+|wait for                  |${wait}                                         |
+***!
+
+
+!*** Pull the user Record
+!| script                                        |
+|click on menu                 |Records          |
+|wait for                      |${wait1}         |
+|click on record type          |User[2]          |
+|wait for                      |${wait1}         |
+|search for                    |ORG UM           |
+|click on record               |ORG UM           |
+|wait for                      |${wait1}         |
+|click on record view          |Related Actions  |
+|click on record related action|Manage User Roles|
+|wait for                      |${wait1}         |
+***!
+
+!***> Manage Roles - Role Selection & Justification Doc
+|script                                                                                  |
+|click on button|Add[1]                                                                  |
+|populate field |System       |with value|TrAMS                                          |
+|wait for       |${wait1}                                                                |
+|populate field |Role Category|with value|Recipient                                      |
+|wait for       |${wait1}                                                                |
+|populate field |Organization |with      |1238 - Metropolitan Transportation Agency (MTA)|
+|wait for       |${wait1}                                                                |
+|select grid    |[2]          |row       |[3]                                            |
+|wait for       |${wait1}                                                                |
+|click on button|Add[2]                                                                  |
+|wait for       |${wait1}                                                                |
+|click on button|Submit                                                                  |
+***!

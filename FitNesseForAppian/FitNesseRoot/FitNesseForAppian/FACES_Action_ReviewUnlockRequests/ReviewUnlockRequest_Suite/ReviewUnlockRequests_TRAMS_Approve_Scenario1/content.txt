@@ -1,0 +1,33 @@
+!***> Loginto FTA
+!|script                                                                    |
+|open                      |${URL}                                          |
+|custom login with username|fitnesse.administrator|and password|Qwertyuiop2@|
+|wait for                  |${wait}                                         |
+***!
+
+!***> Click on Actions from Review Unlock Requests from FTA Dev
+|script                                                     |
+|click on link              |Action                         |
+|wait for                   |${wait1}                       |
+|click on application filter|FTA Access Control Entry System|
+|wait for                   |${wait1}                       |
+|click on action            |Review Unlock Requests         |
+|wait for                   |${wait1}                       |
+***!
+
+!***> Click on User to be unlocked
+!|script                                     |
+|click on grid|[1]|column|Locked User|row|[1]|
+|wait for     |${wait1}                      |
+
+***!
+
+!***> Comments & Approve/Reject Unlock Request
+|script                                                                   |
+|populate       |PARAGRAPH|field|[1]|with|Automated Unlock Request Testing|
+|wait for       |${wait1}                                                 |
+|click on button|Approve                                                  |
+|click on button|Yes                                                      |
+***!
+
+

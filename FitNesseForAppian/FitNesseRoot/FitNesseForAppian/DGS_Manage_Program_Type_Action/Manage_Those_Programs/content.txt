@@ -1,0 +1,27 @@
+!***> Loginto FTA
+!|script                                                                    |
+|open                      |${URL}                                          |
+|custom login with username|fitnesse.administrator|and password|Qwertyuiop2@|
+|wait for                  |${wait}                                         |
+***!
+
+
+
+!***> Click on Actions - > Manage Program Types
+|script                                                                    |
+|click on link              |Action                                        |
+|wait for                   |${wait1}                                      |
+|click on action			|Manage Program Types		               |
+|wait for                   |${wait1}                                      |
+***!
+
+
+!***>  Populate Grid Elements 
+|script |
+| click on grid | | column | Name | row | 1 | 
+
+#|click on link              |Action  Bus and Bus Facilities Infrastructure Investment Program (5339(b))                                      |
+|click on link              | Edit Program Details                                      |	
+|click on button | Cancel |
+***!
+

@@ -1,0 +1,32 @@
+!***> Loginto FTA
+!|script                                                                            |
+|open                      |${URL}                                                  |
+|custom login with username|!-addot\sungkyun.kim.ctr-!|and password|VGhAbmt5b3UwNjEy|
+|wait for                  |${wait}                                                 |
+|open                      |${ftaNode2}                                             |
+***!
+
+!***> Download Files from FTA Node2
+|script                                      |
+|wait for            |${wait}                |
+|download Audit Files|login-audit.csv.${Date}|
+|wait for            |${wait1}               |
+***!
+
+!***> Upload Files to Appian
+!|script                |
+|open         |${Appian}|
+|wait for     |${wait1} |
+|click on link|Action   |
+|wait for     |${wait1} |
+***!
+
+!***> File upload for Node2
+|script                         |
+|file upload to nodes Node|Node2|
+***!
+
+!***> Delete the file from downloads folder
+|script                             |
+|delete file|login-audit.csv.${Date}|
+***!

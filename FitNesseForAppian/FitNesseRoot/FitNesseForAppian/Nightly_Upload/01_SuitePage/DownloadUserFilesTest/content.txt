@@ -1,0 +1,14 @@
+!***> Loginto FTA
+!|script                                                                            |
+|open                      |${URL}                                                  |
+|custom login with username|!-addot\sungkyun.kim.ctr-!|and password|VGhAbmt5b3UwNjEy|
+|wait for                  |${wait}                                                 |
+|open                      |${ftaNode1}                                             |
+***!
+
+!***> Download Files from FTA Node1
+|script                                      |
+|wait for            |${wait}                |
+|download Audit Files|login-audit.csv.${Date}|
+|wait for            |${wait1}               |
+***!

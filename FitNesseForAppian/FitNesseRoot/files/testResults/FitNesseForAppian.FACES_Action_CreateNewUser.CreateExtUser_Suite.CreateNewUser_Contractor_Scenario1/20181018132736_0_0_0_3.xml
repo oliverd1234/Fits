@@ -1,0 +1,1265 @@
+<?xml version="1.0"?>
+<testResults>
+  <FitNesseVersion>v20160515</FitNesseVersion>
+  <rootPath>FitNesseForAppian.FACES_Action_CreateNewUser.CreateExtUser_Suite.CreateNewUser_Contractor_Scenario1</rootPath>
+    <result>
+    <counts>
+      <right>0</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>11</exceptions>
+    </counts>
+    <date>2018-10-18T13:27:38-04:00</date>
+    <runTimeInMillis>108</runTimeInMillis>
+    <content></content>
+    <relativePageName>SuiteSetUp</relativePageName>
+            <instructions>
+            <instructionResult>
+        <instruction>{id='scriptTable_3_0', instruction='make', instanceName='scriptTableActor', className='com.appiancorp.ps.automatedtest.fixture.FTALoginFixture', args=[]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>scriptTable_3_0</instructionId>
+                              <type>ConstructionExpectation</type>
+                                        <evaluationMessage>Could not invoke constructor for com.appiancorp.ps.automatedtest.fixture.FTALoginFixture[0]</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_3_1', instruction='call', instanceName='scriptTableActor', methodName='setupWithBrowser', args=[FIREFOX]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>scriptTable_3_1</instructionId>
+                              <type>ScriptActionExpectation</type>
+                                        <evaluationMessage>The instance scriptTableActor.setupWithBrowser. does not exist</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_3_2', instruction='call', instanceName='scriptTableActor', methodName='setAppianUrlTo', args=[https://facesdev5.fta.dot.gov/suite/tempo]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>scriptTable_3_2</instructionId>
+                              <type>ScriptActionExpectation</type>
+                                        <evaluationMessage>The instance scriptTableActor.setAppianUrlTo. does not exist</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_3_3', instruction='call', instanceName='scriptTableActor', methodName='setAppianVersionTo', args=[&lt;span class="meta"&gt;undefined variable: sites.version&lt;/span&gt;]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>scriptTable_3_3</instructionId>
+                              <type>ScriptActionExpectation</type>
+                                        <evaluationMessage>The instance scriptTableActor.setAppianVersionTo. does not exist</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_3_4', instruction='call', instanceName='scriptTableActor', methodName='setAppianLocaleTo', args=[en_US]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>scriptTable_3_4</instructionId>
+                              <type>ScriptActionExpectation</type>
+                                        <evaluationMessage>The instance scriptTableActor.setAppianLocaleTo. does not exist</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_3_5', instruction='call', instanceName='scriptTableActor', methodName='setTimeoutSecondsTo', args=[40]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>scriptTable_3_5</instructionId>
+                              <type>ScriptActionExpectation</type>
+                                        <evaluationMessage>The instance scriptTableActor.setTimeoutSecondsTo. does not exist</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_3_6', instruction='call', instanceName='scriptTableActor', methodName='setScreenshotPathTo', args=[C:/FitNesseForAppian/FitNesseRoot/FACES_Action_CreateNewUser/TESS_FTA_Testcases/screenshot/]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>scriptTable_3_6</instructionId>
+                              <type>ScriptActionExpectation</type>
+                                        <evaluationMessage>The instance scriptTableActor.setScreenshotPathTo. does not exist</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_3_7', instruction='call', instanceName='scriptTableActor', methodName='setStopOnErrorTo', args=[true]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>scriptTable_3_7</instructionId>
+                              <type>ScriptActionExpectation</type>
+                                        <evaluationMessage>The instance scriptTableActor.setStopOnErrorTo. does not exist</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_3_8', instruction='call', instanceName='scriptTableActor', methodName='setTakeErrorScreenshotsTo', args=[true]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>scriptTable_3_8</instructionId>
+                              <type>ScriptActionExpectation</type>
+                                        <evaluationMessage>The instance scriptTableActor.setTakeErrorScreenshotsTo. does not exist</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_3_9', instruction='call', instanceName='scriptTableActor', methodName='setTestVariableWith', args=[DATEXXX, ${!today(YYYY-MM-DD)}]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>scriptTable_3_9</instructionId>
+                              <type>ScriptActionExpectation</type>
+                                        <evaluationMessage>The instance scriptTableActor.setTestVariableWith. does not exist</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_3_10', instruction='call', instanceName='scriptTableActor', methodName='setStartDatetime', args=[]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>scriptTable_3_10</instructionId>
+                              <type>ScriptActionExpectation</type>
+                                        <evaluationMessage>The instance scriptTableActor.setStartDatetime. does not exist</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+          </instructions>
+      </result>
+  <result>
+    <counts>
+      <right>0</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>40</exceptions>
+    </counts>
+    <date>2018-10-18T13:27:38-04:00</date>
+    <runTimeInMillis>80</runTimeInMillis>
+    <content></content>
+    <relativePageName>CreateNewUser_Contractor_Scenario1</relativePageName>
+            <instructions>
+            <instructionResult>
+        <instruction>{id='scriptTable_3_0', instruction='call', instanceName='scriptTableActor', methodName='open', args=[https://facesdev5.fta.dot.gov/suite/tempo]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>scriptTable_3_0</instructionId>
+                              <type>ScriptActionExpectation</type>
+                                        <evaluationMessage>The instance scriptTableActor.open. does not exist</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_3_1', instruction='call', instanceName='scriptTableActor', methodName='customLoginWithUsernameAndPassword', args=[fitnesse.administrator, Qwertyuiop2@]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>scriptTable_3_1</instructionId>
+                              <type>ScriptActionExpectation</type>
+                                        <evaluationMessage>The instance scriptTableActor.customLoginWithUsernameAndPassword. does not exist</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_3_2', instruction='call', instanceName='scriptTableActor', methodName='waitFor', args=[+6 seconds]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>scriptTable_3_2</instructionId>
+                              <type>ScriptActionExpectation</type>
+                                        <evaluationMessage>The instance scriptTableActor.waitFor. does not exist</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_4_0', instruction='call', instanceName='scriptTableActor', methodName='clickOnLink', args=[Action]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>scriptTable_4_0</instructionId>
+                              <type>ScriptActionExpectation</type>
+                                        <evaluationMessage>The instance scriptTableActor.clickOnLink. does not exist</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_4_1', instruction='call', instanceName='scriptTableActor', methodName='waitFor', args=[+4 seconds]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>scriptTable_4_1</instructionId>
+                              <type>ScriptActionExpectation</type>
+                                        <evaluationMessage>The instance scriptTableActor.waitFor. does not exist</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_4_2', instruction='call', instanceName='scriptTableActor', methodName='clickOnApplicationFilter', args=[FTA Access Control Entry System]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>scriptTable_4_2</instructionId>
+                              <type>ScriptActionExpectation</type>
+                                        <evaluationMessage>The instance scriptTableActor.clickOnApplicationFilter. does not exist</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_4_3', instruction='call', instanceName='scriptTableActor', methodName='waitFor', args=[+4 seconds]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>scriptTable_4_3</instructionId>
+                              <type>ScriptActionExpectation</type>
+                                        <evaluationMessage>The instance scriptTableActor.waitFor. does not exist</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_4_4', instruction='call', instanceName='scriptTableActor', methodName='clickOnAction', args=[Create New User]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>scriptTable_4_4</instructionId>
+                              <type>ScriptActionExpectation</type>
+                                        <evaluationMessage>The instance scriptTableActor.clickOnAction. does not exist</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_4_5', instruction='call', instanceName='scriptTableActor', methodName='waitFor', args=[+4 seconds]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>scriptTable_4_5</instructionId>
+                              <type>ScriptActionExpectation</type>
+                                        <evaluationMessage>The instance scriptTableActor.waitFor. does not exist</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_4_6', instruction='call', instanceName='scriptTableActor', methodName='clickOnRadioOption', args=[External User (e.g. DOL, Auditor, Contractors)]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>scriptTable_4_6</instructionId>
+                              <type>ScriptActionExpectation</type>
+                                        <evaluationMessage>The instance scriptTableActor.clickOnRadioOption. does not exist</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_4_7', instruction='call', instanceName='scriptTableActor', methodName='waitFor', args=[+6 seconds]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>scriptTable_4_7</instructionId>
+                              <type>ScriptActionExpectation</type>
+                                        <evaluationMessage>The instance scriptTableActor.waitFor. does not exist</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_5_0', instruction='call', instanceName='scriptTableActor', methodName='clickOnRadioOption', args=[Contractor User]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>scriptTable_5_0</instructionId>
+                              <type>ScriptActionExpectation</type>
+                                        <evaluationMessage>The instance scriptTableActor.clickOnRadioOption. does not exist</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_5_1', instruction='call', instanceName='scriptTableActor', methodName='waitFor', args=[+4 seconds]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>scriptTable_5_1</instructionId>
+                              <type>ScriptActionExpectation</type>
+                                        <evaluationMessage>The instance scriptTableActor.waitFor. does not exist</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_5_2', instruction='call', instanceName='scriptTableActor', methodName='clickOnButton', args=[Next]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>scriptTable_5_2</instructionId>
+                              <type>ScriptActionExpectation</type>
+                                        <evaluationMessage>The instance scriptTableActor.clickOnButton. does not exist</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_5_3', instruction='call', instanceName='scriptTableActor', methodName='populateFieldWith', args=[TEXT, [1], fitnesseTestUser10@example.com]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>scriptTable_5_3</instructionId>
+                              <type>ScriptActionExpectation</type>
+                                        <evaluationMessage>The instance scriptTableActor.populateFieldWith. does not exist</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_5_4', instruction='call', instanceName='scriptTableActor', methodName='waitFor', args=[+4 seconds]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>scriptTable_5_4</instructionId>
+                              <type>ScriptActionExpectation</type>
+                                        <evaluationMessage>The instance scriptTableActor.waitFor. does not exist</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_5_5', instruction='call', instanceName='scriptTableActor', methodName='clickOnButton', args=[Next]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>scriptTable_5_5</instructionId>
+                              <type>ScriptActionExpectation</type>
+                                        <evaluationMessage>The instance scriptTableActor.clickOnButton. does not exist</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_6_0', instruction='call', instanceName='scriptTableActor', methodName='populateFieldWith', args=[First Name, fitNesseTester]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>scriptTable_6_0</instructionId>
+                              <type>ScriptActionExpectation</type>
+                                        <evaluationMessage>The instance scriptTableActor.populateFieldWith. does not exist</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_6_1', instruction='call', instanceName='scriptTableActor', methodName='populateFieldWith', args=[Last Name, User]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>scriptTable_6_1</instructionId>
+                              <type>ScriptActionExpectation</type>
+                                        <evaluationMessage>The instance scriptTableActor.populateFieldWith. does not exist</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_6_2', instruction='call', instanceName='scriptTableActor', methodName='populateFieldWith', args=[Title, Automated Tester]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>scriptTable_6_2</instructionId>
+                              <type>ScriptActionExpectation</type>
+                                        <evaluationMessage>The instance scriptTableActor.populateFieldWith. does not exist</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_6_3', instruction='call', instanceName='scriptTableActor', methodName='populateFieldWithValue', args=[Honorific, [1]]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>scriptTable_6_3</instructionId>
+                              <type>ScriptActionExpectation</type>
+                                        <evaluationMessage>The instance scriptTableActor.populateFieldWithValue. does not exist</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_6_4', instruction='call', instanceName='scriptTableActor', methodName='populateFieldWith', args=[Phone Number, 555-555-5555]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>scriptTable_6_4</instructionId>
+                              <type>ScriptActionExpectation</type>
+                                        <evaluationMessage>The instance scriptTableActor.populateFieldWith. does not exist</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_6_5', instruction='call', instanceName='scriptTableActor', methodName='populateFieldWith', args=[Address 1, 8245 Boone Boulevard]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>scriptTable_6_5</instructionId>
+                              <type>ScriptActionExpectation</type>
+                                        <evaluationMessage>The instance scriptTableActor.populateFieldWith. does not exist</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_6_6', instruction='call', instanceName='scriptTableActor', methodName='populateFieldWith', args=[City, Vienna]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>scriptTable_6_6</instructionId>
+                              <type>ScriptActionExpectation</type>
+                                        <evaluationMessage>The instance scriptTableActor.populateFieldWith. does not exist</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_6_7', instruction='call', instanceName='scriptTableActor', methodName='populateFieldWith', args=[State, VA]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>scriptTable_6_7</instructionId>
+                              <type>ScriptActionExpectation</type>
+                                        <evaluationMessage>The instance scriptTableActor.populateFieldWith. does not exist</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_6_8', instruction='call', instanceName='scriptTableActor', methodName='populateFieldWith', args=[Zip Code, 22182]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>scriptTable_6_8</instructionId>
+                              <type>ScriptActionExpectation</type>
+                                        <evaluationMessage>The instance scriptTableActor.populateFieldWith. does not exist</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_6_9', instruction='call', instanceName='scriptTableActor', methodName='waitFor', args=[+4 seconds]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>scriptTable_6_9</instructionId>
+                              <type>ScriptActionExpectation</type>
+                                        <evaluationMessage>The instance scriptTableActor.waitFor. does not exist</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_6_10', instruction='call', instanceName='scriptTableActor', methodName='clickOnButton', args=[Next]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>scriptTable_6_10</instructionId>
+                              <type>ScriptActionExpectation</type>
+                                        <evaluationMessage>The instance scriptTableActor.clickOnButton. does not exist</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_7_0', instruction='call', instanceName='scriptTableActor', methodName='clickOnButton', args=[Add[1]]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>scriptTable_7_0</instructionId>
+                              <type>ScriptActionExpectation</type>
+                                        <evaluationMessage>The instance scriptTableActor.clickOnButton. does not exist</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_7_1', instruction='call', instanceName='scriptTableActor', methodName='populateFieldWithValue', args=[System, [2]]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>scriptTable_7_1</instructionId>
+                              <type>ScriptActionExpectation</type>
+                                        <evaluationMessage>The instance scriptTableActor.populateFieldWithValue. does not exist</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_7_2', instruction='call', instanceName='scriptTableActor', methodName='waitFor', args=[+4 seconds]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>scriptTable_7_2</instructionId>
+                              <type>ScriptActionExpectation</type>
+                                        <evaluationMessage>The instance scriptTableActor.waitFor. does not exist</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_7_3', instruction='call', instanceName='scriptTableActor', methodName='populateFieldWithValue', args=[Role Category, [1]]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>scriptTable_7_3</instructionId>
+                              <type>ScriptActionExpectation</type>
+                                        <evaluationMessage>The instance scriptTableActor.populateFieldWithValue. does not exist</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_7_4', instruction='call', instanceName='scriptTableActor', methodName='waitFor', args=[+4 seconds]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>scriptTable_7_4</instructionId>
+                              <type>ScriptActionExpectation</type>
+                                        <evaluationMessage>The instance scriptTableActor.waitFor. does not exist</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_7_5', instruction='call', instanceName='scriptTableActor', methodName='populateFieldWith', args=[Organization, 1238 - Metropolitan Transportation Agency (MTA)]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>scriptTable_7_5</instructionId>
+                              <type>ScriptActionExpectation</type>
+                                        <evaluationMessage>The instance scriptTableActor.populateFieldWith. does not exist</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_7_6', instruction='call', instanceName='scriptTableActor', methodName='waitFor', args=[+4 seconds]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>scriptTable_7_6</instructionId>
+                              <type>ScriptActionExpectation</type>
+                                        <evaluationMessage>The instance scriptTableActor.waitFor. does not exist</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_7_7', instruction='call', instanceName='scriptTableActor', methodName='selectGridRow', args=[[2], [1]]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>scriptTable_7_7</instructionId>
+                              <type>ScriptActionExpectation</type>
+                                        <evaluationMessage>The instance scriptTableActor.selectGridRow. does not exist</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_7_8', instruction='call', instanceName='scriptTableActor', methodName='waitFor', args=[+10 seconds]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>scriptTable_7_8</instructionId>
+                              <type>ScriptActionExpectation</type>
+                                        <evaluationMessage>The instance scriptTableActor.waitFor. does not exist</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_7_9', instruction='call', instanceName='scriptTableActor', methodName='clickOnButton', args=[Add[2]]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>scriptTable_7_9</instructionId>
+                              <type>ScriptActionExpectation</type>
+                                        <evaluationMessage>The instance scriptTableActor.clickOnButton. does not exist</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_7_10', instruction='call', instanceName='scriptTableActor', methodName='waitFor', args=[+4 seconds]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>scriptTable_7_10</instructionId>
+                              <type>ScriptActionExpectation</type>
+                                        <evaluationMessage>The instance scriptTableActor.waitFor. does not exist</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_7_11', instruction='call', instanceName='scriptTableActor', methodName='clickOnButton', args=[Create]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>scriptTable_7_11</instructionId>
+                              <type>ScriptActionExpectation</type>
+                                        <evaluationMessage>The instance scriptTableActor.clickOnButton. does not exist</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+          </instructions>
+      </result>
+  <result>
+    <counts>
+      <right>0</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>1</exceptions>
+    </counts>
+    <date>2018-10-18T13:27:38-04:00</date>
+    <runTimeInMillis>15</runTimeInMillis>
+    <content>&lt;div class="collapsible closed"&gt;&lt;ul&gt;&lt;li&gt;&lt;a href='#' class='expandall'&gt;Expand&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='#' class='collapseall'&gt;Collapse&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+	&lt;p class="title"&gt;Scenario Libraries&lt;/p&gt;
+	&lt;div&gt;&lt;div class="collapsible closed"&gt;&lt;ul&gt;&lt;li&gt;&lt;a href='#' class='expandall'&gt;Expand&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='#' class='collapseall'&gt;Collapse&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+	&lt;p class="title"&gt;Included page: &lt;a href="ScenarioLibrary"&gt;.ScenarioLibrary&lt;/a&gt; &lt;a href="ScenarioLibrary?edit&amp;amp;redirectToReferer=true&amp;amp;redirectAction=" class="edit"&gt;(edit)&lt;/a&gt;&lt;/p&gt;
+	&lt;div&gt;&lt;h2&gt;These scenarios will be accessible to all test cases in the the FitNesseRoot folder. If you are using a different FitNesseRoot Folder, make sure to copy these files if using any setup scenarios.&lt;/h2&gt;
+&lt;br/&gt;&lt;h3&gt;Update these variables for your specific test environment&lt;/h3&gt;
+&lt;br/&gt;&lt;div class="collapsible"&gt;&lt;ul&gt;&lt;li&gt;&lt;a href='#' class='expandall'&gt;Expand&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='#' class='collapseall'&gt;Collapse&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+	&lt;p class="title"&gt;Variables for Scenarios&lt;/p&gt;
+	&lt;div&gt;Default browser can be &lt;b&gt;FIREFOX&lt;/b&gt;, &lt;b&gt;CHROME&lt;/b&gt;, or &lt;b&gt;IE&lt;/b&gt;&lt;br/&gt;&lt;span class="meta"&gt;variable defined: defaultBrowser=CHROME&lt;/span&gt;
+&lt;br/&gt;&lt;br/&gt;Default Version can be &lt;b&gt;17.2&lt;/b&gt;, &lt;b&gt;17.1&lt;/b&gt;, &lt;b&gt;16.3&lt;/b&gt;, &lt;b&gt;16.2&lt;/b&gt;, &lt;b&gt;16.1&lt;/b&gt;, &lt;b&gt;7.11&lt;/b&gt;, or &lt;b&gt;7.10&lt;/b&gt;&lt;br/&gt;&lt;span class="meta"&gt;variable defined: defaultVersion=17.2&lt;/span&gt;
+&lt;br/&gt;&lt;br/&gt;Default Locale can be &lt;b&gt;en_US&lt;/b&gt; or &lt;b&gt;en_GB&lt;/b&gt;&lt;br/&gt;&lt;span class="meta"&gt;variable defined: defaultLocale=en_US&lt;/span&gt;
+&lt;br/&gt;&lt;br/&gt;Default URL should include http or https and /suite (e.g. &lt;b&gt;https://forum.appian.com/suite&lt;/b&gt; )&lt;br/&gt;&lt;span class="meta"&gt;variable defined: defaultUrl=REPLACE_APPIAN_URL&lt;/span&gt;
+&lt;br/&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;br/&gt;&lt;h3&gt;To use out of the box functionality, do not update the scenarios below&lt;/h3&gt;
+&lt;br/&gt;&lt;div class="collapsible"&gt;&lt;ul&gt;&lt;li&gt;&lt;a href='#' class='expandall'&gt;Expand&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='#' class='collapseall'&gt;Collapse&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+	&lt;p class="title"&gt;Setup customizable for browser, locale, version, and URL&lt;/p&gt;
+	&lt;div&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;setup for test script for browser&lt;/td&gt;
+		&lt;td&gt;browserType&lt;/td&gt;
+		&lt;td&gt;locale&lt;/td&gt;
+		&lt;td&gt;location&lt;/td&gt;
+		&lt;td&gt;version&lt;/td&gt;
+		&lt;td&gt;versionNum&lt;/td&gt;
+		&lt;td&gt;url&lt;/td&gt;
+		&lt;td&gt;appianUrl&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor1"&gt;
+		&lt;td&gt;setup with browser&lt;/td&gt;
+		&lt;td colspan="8"&gt;@browserType&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor2"&gt;
+		&lt;td&gt;set appian locale to&lt;/td&gt;
+		&lt;td colspan="8"&gt;@location&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor2"&gt;
+		&lt;td&gt;set appian version to&lt;/td&gt;
+		&lt;td colspan="8"&gt;@versionNum&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor7"&gt;
+		&lt;td&gt;set appian url to&lt;/td&gt;
+		&lt;td colspan="8"&gt;@appianUrl&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor1"&gt;
+		&lt;td&gt;set timeout seconds to&lt;/td&gt;
+		&lt;td colspan="8"&gt;20&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor9"&gt;
+		&lt;td colspan="9"&gt;set start datetime&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;br/&gt;&lt;div class="collapsible"&gt;&lt;ul&gt;&lt;li&gt;&lt;a href='#' class='expandall'&gt;Expand&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='#' class='collapseall'&gt;Collapse&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+	&lt;p class="title"&gt;Scenario - Setup using default values &lt;/p&gt;
+	&lt;div&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td colspan="7"&gt;setup for test script&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor6"&gt;
+		&lt;td&gt;setup for test script for browser&lt;/td&gt;
+		&lt;td&gt;CHROME&lt;/td&gt;
+		&lt;td&gt;locale&lt;/td&gt;
+		&lt;td&gt;en_US&lt;/td&gt;
+		&lt;td&gt;version&lt;/td&gt;
+		&lt;td&gt;17.2&lt;/td&gt;
+		&lt;td&gt;url&lt;/td&gt;
+		&lt;td&gt;REPLACE_APPIAN_URL&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="collapsible closed"&gt;&lt;ul&gt;&lt;li&gt;&lt;a href='#' class='expandall'&gt;Expand&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='#' class='collapseall'&gt;Collapse&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+	&lt;p class="title"&gt;Included page: &lt;a href="FitNesseForAppian.FACES_Action_CreateNewUser.ScenarioLibrary"&gt;.FitNesseForAppian.FACES_Action_CreateNewUser.ScenarioLibrary&lt;/a&gt; &lt;a href="FitNesseForAppian.FACES_Action_CreateNewUser.ScenarioLibrary?edit&amp;amp;redirectToReferer=true&amp;amp;redirectAction=" class="edit"&gt;(edit)&lt;/a&gt;&lt;/p&gt;
+	&lt;div&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;file upload to nodes&lt;/td&gt;
+		&lt;td&gt;Node&lt;/td&gt;
+		&lt;td colspan="3"&gt;@Node&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor3"&gt;
+		&lt;td&gt;click on application filter&lt;/td&gt;
+		&lt;td colspan="5"&gt;TESS Administrator Utilities&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor6"&gt;
+		&lt;td&gt;wait for&lt;/td&gt;
+		&lt;td colspan="5"&gt;+4 seconds&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor1"&gt;
+		&lt;td&gt;click on action&lt;/td&gt;
+		&lt;td colspan="5"&gt;User Login Upload Utility&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor6"&gt;
+		&lt;td&gt;wait for&lt;/td&gt;
+		&lt;td colspan="5"&gt;+4 seconds&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor2"&gt;
+		&lt;td&gt;populate field&lt;/td&gt;
+		&lt;td&gt;Selected Node&lt;/td&gt;
+		&lt;td&gt;with&lt;/td&gt;
+		&lt;td colspan="3"&gt;@Node&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor6"&gt;
+		&lt;td&gt;wait for&lt;/td&gt;
+		&lt;td colspan="5"&gt;+4 seconds&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor4"&gt;
+		&lt;td&gt;populate&lt;/td&gt;
+		&lt;td&gt;FILE_UPLOAD&lt;/td&gt;
+		&lt;td&gt;field&lt;/td&gt;
+		&lt;td&gt;[1]&lt;/td&gt;
+		&lt;td&gt;with&lt;/td&gt;
+		&lt;td&gt;C:/FitNesseForAppian\FitNesseRoot\FrontPage\TESS_FTA_Testcases\Downloads\login-audit.csv.2018-10-18&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor1"&gt;
+		&lt;td&gt;click on button&lt;/td&gt;
+		&lt;td colspan="5"&gt;Submit&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;br/&gt;&lt;div class="collapsible closed"&gt;&lt;ul&gt;&lt;li&gt;&lt;a href='#' class='expandall'&gt;Expand&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='#' class='collapseall'&gt;Collapse&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+	&lt;p class="title"&gt;Initialization&lt;/p&gt;
+	&lt;div&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;script&lt;/td&gt;
+		&lt;td colspan="3"&gt;com.appiancorp.ps.automatedtest.fixture.FTALoginFixture &lt;span class="error"&gt;Could not invoke constructor for com.appiancorp.ps.automatedtest.fixture.FTALoginFixture[0]&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor1"&gt;
+		&lt;td&gt;setup with browser &lt;span class="error"&gt;The instance scriptTableActor.setupWithBrowser. does not exist&lt;/span&gt;&lt;/td&gt;
+		&lt;td colspan="3"&gt;FIREFOX&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor7"&gt;
+		&lt;td&gt;set appian url to &lt;span class="error"&gt;The instance scriptTableActor.setAppianUrlTo. does not exist&lt;/span&gt;&lt;/td&gt;
+		&lt;td colspan="3"&gt;https://facesdev5.fta.dot.gov/suite/tempo&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor2"&gt;
+		&lt;td&gt;set appian version to &lt;span class="error"&gt;The instance scriptTableActor.setAppianVersionTo. does not exist&lt;/span&gt;&lt;/td&gt;
+		&lt;td colspan="3"&gt;&lt;span class="meta"&gt;undefined variable: sites.version&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor2"&gt;
+		&lt;td&gt;set appian locale to &lt;span class="error"&gt;The instance scriptTableActor.setAppianLocaleTo. does not exist&lt;/span&gt;&lt;/td&gt;
+		&lt;td colspan="3"&gt;en_US&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor1"&gt;
+		&lt;td&gt;set timeout seconds to &lt;span class="error"&gt;The instance scriptTableActor.setTimeoutSecondsTo. does not exist&lt;/span&gt;&lt;/td&gt;
+		&lt;td colspan="3"&gt;40&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;set screenshot path to &lt;span class="error"&gt;The instance scriptTableActor.setScreenshotPathTo. does not exist&lt;/span&gt;&lt;/td&gt;
+		&lt;td colspan="3"&gt;C:/FitNesseForAppian/FitNesseRoot/FACES_Action_CreateNewUser/TESS_FTA_Testcases/screenshot/&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor6"&gt;
+		&lt;td&gt;set stop on error to &lt;span class="error"&gt;The instance scriptTableActor.setStopOnErrorTo. does not exist&lt;/span&gt;&lt;/td&gt;
+		&lt;td colspan="3"&gt;true&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor3"&gt;
+		&lt;td&gt;set take error screenshots to &lt;span class="error"&gt;The instance scriptTableActor.setTakeErrorScreenshotsTo. does not exist&lt;/span&gt;&lt;/td&gt;
+		&lt;td colspan="3"&gt;true&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor2"&gt;
+		&lt;td&gt;set test variable &lt;span class="error"&gt;The instance scriptTableActor.setTestVariableWith. does not exist&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;DATEXXX&lt;/td&gt;
+		&lt;td&gt;with&lt;/td&gt;
+		&lt;td&gt;${!today(YYYY-MM-DD)}&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor9"&gt;
+		&lt;td colspan="4"&gt;set start datetime &lt;span class="error"&gt;The instance scriptTableActor.setStartDatetime. does not exist&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;br/&gt;&lt;br/&gt;&lt;div class="collapsible closed"&gt;&lt;ul&gt;&lt;li&gt;&lt;a href='#' class='expandall'&gt;Expand&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='#' class='collapseall'&gt;Collapse&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+	&lt;p class="title"&gt;Scenario Libraries&lt;/p&gt;
+	&lt;div&gt;&lt;div class="collapsible closed"&gt;&lt;ul&gt;&lt;li&gt;&lt;a href='#' class='expandall'&gt;Expand&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='#' class='collapseall'&gt;Collapse&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+	&lt;p class="title"&gt;Included page: &lt;a href="ScenarioLibrary"&gt;.ScenarioLibrary&lt;/a&gt; &lt;a href="ScenarioLibrary?edit&amp;amp;redirectToReferer=true&amp;amp;redirectAction=" class="edit"&gt;(edit)&lt;/a&gt;&lt;/p&gt;
+	&lt;div&gt;&lt;h2&gt;These scenarios will be accessible to all test cases in the the FitNesseRoot folder. If you are using a different FitNesseRoot Folder, make sure to copy these files if using any setup scenarios.&lt;/h2&gt;
+&lt;br/&gt;&lt;h3&gt;Update these variables for your specific test environment&lt;/h3&gt;
+&lt;br/&gt;&lt;div class="collapsible"&gt;&lt;ul&gt;&lt;li&gt;&lt;a href='#' class='expandall'&gt;Expand&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='#' class='collapseall'&gt;Collapse&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+	&lt;p class="title"&gt;Variables for Scenarios&lt;/p&gt;
+	&lt;div&gt;Default browser can be &lt;b&gt;FIREFOX&lt;/b&gt;, &lt;b&gt;CHROME&lt;/b&gt;, or &lt;b&gt;IE&lt;/b&gt;&lt;br/&gt;&lt;span class="meta"&gt;variable defined: defaultBrowser=CHROME&lt;/span&gt;
+&lt;br/&gt;&lt;br/&gt;Default Version can be &lt;b&gt;17.2&lt;/b&gt;, &lt;b&gt;17.1&lt;/b&gt;, &lt;b&gt;16.3&lt;/b&gt;, &lt;b&gt;16.2&lt;/b&gt;, &lt;b&gt;16.1&lt;/b&gt;, &lt;b&gt;7.11&lt;/b&gt;, or &lt;b&gt;7.10&lt;/b&gt;&lt;br/&gt;&lt;span class="meta"&gt;variable defined: defaultVersion=17.2&lt;/span&gt;
+&lt;br/&gt;&lt;br/&gt;Default Locale can be &lt;b&gt;en_US&lt;/b&gt; or &lt;b&gt;en_GB&lt;/b&gt;&lt;br/&gt;&lt;span class="meta"&gt;variable defined: defaultLocale=en_US&lt;/span&gt;
+&lt;br/&gt;&lt;br/&gt;Default URL should include http or https and /suite (e.g. &lt;b&gt;https://forum.appian.com/suite&lt;/b&gt; )&lt;br/&gt;&lt;span class="meta"&gt;variable defined: defaultUrl=REPLACE_APPIAN_URL&lt;/span&gt;
+&lt;br/&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;br/&gt;&lt;h3&gt;To use out of the box functionality, do not update the scenarios below&lt;/h3&gt;
+&lt;br/&gt;&lt;div class="collapsible"&gt;&lt;ul&gt;&lt;li&gt;&lt;a href='#' class='expandall'&gt;Expand&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='#' class='collapseall'&gt;Collapse&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+	&lt;p class="title"&gt;Setup customizable for browser, locale, version, and URL&lt;/p&gt;
+	&lt;div&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;setup for test script for browser&lt;/td&gt;
+		&lt;td&gt;browserType&lt;/td&gt;
+		&lt;td&gt;locale&lt;/td&gt;
+		&lt;td&gt;location&lt;/td&gt;
+		&lt;td&gt;version&lt;/td&gt;
+		&lt;td&gt;versionNum&lt;/td&gt;
+		&lt;td&gt;url&lt;/td&gt;
+		&lt;td&gt;appianUrl&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor1"&gt;
+		&lt;td&gt;setup with browser&lt;/td&gt;
+		&lt;td colspan="8"&gt;@browserType&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor2"&gt;
+		&lt;td&gt;set appian locale to&lt;/td&gt;
+		&lt;td colspan="8"&gt;@location&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor2"&gt;
+		&lt;td&gt;set appian version to&lt;/td&gt;
+		&lt;td colspan="8"&gt;@versionNum&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor7"&gt;
+		&lt;td&gt;set appian url to&lt;/td&gt;
+		&lt;td colspan="8"&gt;@appianUrl&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor1"&gt;
+		&lt;td&gt;set timeout seconds to&lt;/td&gt;
+		&lt;td colspan="8"&gt;20&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor9"&gt;
+		&lt;td colspan="9"&gt;set start datetime&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;br/&gt;&lt;div class="collapsible"&gt;&lt;ul&gt;&lt;li&gt;&lt;a href='#' class='expandall'&gt;Expand&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='#' class='collapseall'&gt;Collapse&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+	&lt;p class="title"&gt;Scenario - Setup using default values &lt;/p&gt;
+	&lt;div&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td colspan="7"&gt;setup for test script&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor6"&gt;
+		&lt;td&gt;setup for test script for browser&lt;/td&gt;
+		&lt;td&gt;CHROME&lt;/td&gt;
+		&lt;td&gt;locale&lt;/td&gt;
+		&lt;td&gt;en_US&lt;/td&gt;
+		&lt;td&gt;version&lt;/td&gt;
+		&lt;td&gt;17.2&lt;/td&gt;
+		&lt;td&gt;url&lt;/td&gt;
+		&lt;td&gt;REPLACE_APPIAN_URL&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="collapsible closed"&gt;&lt;ul&gt;&lt;li&gt;&lt;a href='#' class='expandall'&gt;Expand&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='#' class='collapseall'&gt;Collapse&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+	&lt;p class="title"&gt;Included page: &lt;a href="FitNesseForAppian.FACES_Action_CreateNewUser.ScenarioLibrary"&gt;.FitNesseForAppian.FACES_Action_CreateNewUser.ScenarioLibrary&lt;/a&gt; &lt;a href="FitNesseForAppian.FACES_Action_CreateNewUser.ScenarioLibrary?edit&amp;amp;redirectToReferer=true&amp;amp;redirectAction=" class="edit"&gt;(edit)&lt;/a&gt;&lt;/p&gt;
+	&lt;div&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;file upload to nodes&lt;/td&gt;
+		&lt;td&gt;Node&lt;/td&gt;
+		&lt;td colspan="3"&gt;@Node&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor3"&gt;
+		&lt;td&gt;click on application filter&lt;/td&gt;
+		&lt;td colspan="5"&gt;TESS Administrator Utilities&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor6"&gt;
+		&lt;td&gt;wait for&lt;/td&gt;
+		&lt;td colspan="5"&gt;+4 seconds&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor1"&gt;
+		&lt;td&gt;click on action&lt;/td&gt;
+		&lt;td colspan="5"&gt;User Login Upload Utility&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor6"&gt;
+		&lt;td&gt;wait for&lt;/td&gt;
+		&lt;td colspan="5"&gt;+4 seconds&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor2"&gt;
+		&lt;td&gt;populate field&lt;/td&gt;
+		&lt;td&gt;Selected Node&lt;/td&gt;
+		&lt;td&gt;with&lt;/td&gt;
+		&lt;td colspan="3"&gt;@Node&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor6"&gt;
+		&lt;td&gt;wait for&lt;/td&gt;
+		&lt;td colspan="5"&gt;+4 seconds&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor4"&gt;
+		&lt;td&gt;populate&lt;/td&gt;
+		&lt;td&gt;FILE_UPLOAD&lt;/td&gt;
+		&lt;td&gt;field&lt;/td&gt;
+		&lt;td&gt;[1]&lt;/td&gt;
+		&lt;td&gt;with&lt;/td&gt;
+		&lt;td&gt;C:/FitNesseForAppian\FitNesseRoot\FrontPage\TESS_FTA_Testcases\Downloads\login-audit.csv.2018-10-18&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor1"&gt;
+		&lt;td&gt;click on button&lt;/td&gt;
+		&lt;td colspan="5"&gt;Submit&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;br/&gt;&lt;div class="collapsible closed"&gt;&lt;ul&gt;&lt;li&gt;&lt;a href='#' class='expandall'&gt;Expand&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='#' class='collapseall'&gt;Collapse&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+	&lt;p class="title"&gt;Loginto FTA&lt;/p&gt;
+	&lt;div&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td colspan="4"&gt;script&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor4"&gt;
+		&lt;td&gt;open &lt;span class="error"&gt;The instance scriptTableActor.open. does not exist&lt;/span&gt;&lt;/td&gt;
+		&lt;td colspan="3"&gt;https://facesdev5.fta.dot.gov/suite/tempo&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;custom login with username &lt;span class="error"&gt;The instance scriptTableActor.customLoginWithUsernameAndPassword. does not exist&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;fitnesse.administrator&lt;/td&gt;
+		&lt;td&gt;and password&lt;/td&gt;
+		&lt;td&gt;Qwertyuiop2@&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor6"&gt;
+		&lt;td&gt;wait for &lt;span class="error"&gt;The instance scriptTableActor.waitFor. does not exist&lt;/span&gt;&lt;/td&gt;
+		&lt;td colspan="3"&gt;+6 seconds&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;br/&gt;&lt;div class="collapsible closed"&gt;&lt;ul&gt;&lt;li&gt;&lt;a href='#' class='expandall'&gt;Expand&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='#' class='collapseall'&gt;Collapse&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+	&lt;p class="title"&gt;Click on Actions from Create New User from FTA Dev&lt;/p&gt;
+	&lt;div&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td colspan="2"&gt;script&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor3"&gt;
+		&lt;td&gt;click on link &lt;span class="error"&gt;The instance scriptTableActor.clickOnLink. does not exist&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;Action&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor6"&gt;
+		&lt;td&gt;wait for &lt;span class="error"&gt;The instance scriptTableActor.waitFor. does not exist&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;+4 seconds&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor3"&gt;
+		&lt;td&gt;click on application filter &lt;span class="error"&gt;The instance scriptTableActor.clickOnApplicationFilter. does not exist&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;FTA Access Control Entry System&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor6"&gt;
+		&lt;td&gt;wait for &lt;span class="error"&gt;The instance scriptTableActor.waitFor. does not exist&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;+4 seconds&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor1"&gt;
+		&lt;td&gt;click on action &lt;span class="error"&gt;The instance scriptTableActor.clickOnAction. does not exist&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;Create New User&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor6"&gt;
+		&lt;td&gt;wait for &lt;span class="error"&gt;The instance scriptTableActor.waitFor. does not exist&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;+4 seconds&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor7"&gt;
+		&lt;td&gt;click on radio option &lt;span class="error"&gt;The instance scriptTableActor.clickOnRadioOption. does not exist&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;External User (e.g. DOL, Auditor, Contractors)&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor6"&gt;
+		&lt;td&gt;wait for &lt;span class="error"&gt;The instance scriptTableActor.waitFor. does not exist&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;+6 seconds&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;br/&gt;&lt;div class="collapsible closed"&gt;&lt;ul&gt;&lt;li&gt;&lt;a href='#' class='expandall'&gt;Expand&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='#' class='collapseall'&gt;Collapse&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+	&lt;p class="title"&gt;Click on Contractor User&lt;/p&gt;
+	&lt;div&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td colspan="6"&gt;script&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor7"&gt;
+		&lt;td&gt;click on radio option &lt;span class="error"&gt;The instance scriptTableActor.clickOnRadioOption. does not exist&lt;/span&gt;&lt;/td&gt;
+		&lt;td colspan="5"&gt;Contractor User&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor6"&gt;
+		&lt;td&gt;wait for &lt;span class="error"&gt;The instance scriptTableActor.waitFor. does not exist&lt;/span&gt;&lt;/td&gt;
+		&lt;td colspan="5"&gt;+4 seconds&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor1"&gt;
+		&lt;td&gt;click on button &lt;span class="error"&gt;The instance scriptTableActor.clickOnButton. does not exist&lt;/span&gt;&lt;/td&gt;
+		&lt;td colspan="5"&gt;Next&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor4"&gt;
+		&lt;td&gt;populate &lt;span class="error"&gt;The instance scriptTableActor.populateFieldWith. does not exist&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;TEXT&lt;/td&gt;
+		&lt;td&gt;field&lt;/td&gt;
+		&lt;td&gt;[1]&lt;/td&gt;
+		&lt;td&gt;with&lt;/td&gt;
+		&lt;td&gt;fitnesseTestUser10@example.com&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor6"&gt;
+		&lt;td&gt;wait for &lt;span class="error"&gt;The instance scriptTableActor.waitFor. does not exist&lt;/span&gt;&lt;/td&gt;
+		&lt;td colspan="5"&gt;+4 seconds&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor1"&gt;
+		&lt;td&gt;click on button &lt;span class="error"&gt;The instance scriptTableActor.clickOnButton. does not exist&lt;/span&gt;&lt;/td&gt;
+		&lt;td colspan="5"&gt;Next&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;br/&gt;&lt;div class="collapsible closed"&gt;&lt;ul&gt;&lt;li&gt;&lt;a href='#' class='expandall'&gt;Expand&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='#' class='collapseall'&gt;Collapse&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+	&lt;p class="title"&gt;Enter Basic Info&lt;/p&gt;
+	&lt;div&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td colspan="4"&gt;script&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor2"&gt;
+		&lt;td&gt;populate field &lt;span class="error"&gt;The instance scriptTableActor.populateFieldWith. does not exist&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;First Name&lt;/td&gt;
+		&lt;td&gt;with&lt;/td&gt;
+		&lt;td&gt;fitNesseTester&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor2"&gt;
+		&lt;td&gt;populate field &lt;span class="error"&gt;The instance scriptTableActor.populateFieldWith. does not exist&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;Last Name&lt;/td&gt;
+		&lt;td&gt;with&lt;/td&gt;
+		&lt;td&gt;User&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor2"&gt;
+		&lt;td&gt;populate field &lt;span class="error"&gt;The instance scriptTableActor.populateFieldWith. does not exist&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;Title&lt;/td&gt;
+		&lt;td&gt;with&lt;/td&gt;
+		&lt;td&gt;Automated Tester&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor2"&gt;
+		&lt;td&gt;populate field &lt;span class="error"&gt;The instance scriptTableActor.populateFieldWithValue. does not exist&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;Honorific&lt;/td&gt;
+		&lt;td&gt;with value&lt;/td&gt;
+		&lt;td&gt;[1]&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor2"&gt;
+		&lt;td&gt;populate field &lt;span class="error"&gt;The instance scriptTableActor.populateFieldWith. does not exist&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;Phone Number&lt;/td&gt;
+		&lt;td&gt;with&lt;/td&gt;
+		&lt;td&gt;555-555-5555&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor2"&gt;
+		&lt;td&gt;populate field &lt;span class="error"&gt;The instance scriptTableActor.populateFieldWith. does not exist&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;Address 1&lt;/td&gt;
+		&lt;td&gt;with&lt;/td&gt;
+		&lt;td&gt;8245 Boone Boulevard&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor2"&gt;
+		&lt;td&gt;populate field &lt;span class="error"&gt;The instance scriptTableActor.populateFieldWith. does not exist&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;City&lt;/td&gt;
+		&lt;td&gt;with&lt;/td&gt;
+		&lt;td&gt;Vienna&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor2"&gt;
+		&lt;td&gt;populate field &lt;span class="error"&gt;The instance scriptTableActor.populateFieldWith. does not exist&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;State&lt;/td&gt;
+		&lt;td&gt;with&lt;/td&gt;
+		&lt;td&gt;VA&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor2"&gt;
+		&lt;td&gt;populate field &lt;span class="error"&gt;The instance scriptTableActor.populateFieldWith. does not exist&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;Zip Code&lt;/td&gt;
+		&lt;td&gt;with&lt;/td&gt;
+		&lt;td&gt;22182&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor6"&gt;
+		&lt;td&gt;wait for &lt;span class="error"&gt;The instance scriptTableActor.waitFor. does not exist&lt;/span&gt;&lt;/td&gt;
+		&lt;td colspan="3"&gt;+4 seconds&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor1"&gt;
+		&lt;td&gt;click on button &lt;span class="error"&gt;The instance scriptTableActor.clickOnButton. does not exist&lt;/span&gt;&lt;/td&gt;
+		&lt;td colspan="3"&gt;Next&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;br/&gt;&lt;div class="collapsible closed"&gt;&lt;ul&gt;&lt;li&gt;&lt;a href='#' class='expandall'&gt;Expand&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='#' class='collapseall'&gt;Collapse&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+	&lt;p class="title"&gt;Manage Roles&lt;/p&gt;
+	&lt;div&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td colspan="4"&gt;script&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor1"&gt;
+		&lt;td&gt;click on button &lt;span class="error"&gt;The instance scriptTableActor.clickOnButton. does not exist&lt;/span&gt;&lt;/td&gt;
+		&lt;td colspan="3"&gt;Add[1]&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor2"&gt;
+		&lt;td&gt;populate field &lt;span class="error"&gt;The instance scriptTableActor.populateFieldWithValue. does not exist&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;System&lt;/td&gt;
+		&lt;td&gt;with value&lt;/td&gt;
+		&lt;td&gt;[2]&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor6"&gt;
+		&lt;td&gt;wait for &lt;span class="error"&gt;The instance scriptTableActor.waitFor. does not exist&lt;/span&gt;&lt;/td&gt;
+		&lt;td colspan="3"&gt;+4 seconds&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor2"&gt;
+		&lt;td&gt;populate field &lt;span class="error"&gt;The instance scriptTableActor.populateFieldWithValue. does not exist&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;Role Category&lt;/td&gt;
+		&lt;td&gt;with value&lt;/td&gt;
+		&lt;td&gt;[1]&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor6"&gt;
+		&lt;td&gt;wait for &lt;span class="error"&gt;The instance scriptTableActor.waitFor. does not exist&lt;/span&gt;&lt;/td&gt;
+		&lt;td colspan="3"&gt;+4 seconds&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor2"&gt;
+		&lt;td&gt;populate field &lt;span class="error"&gt;The instance scriptTableActor.populateFieldWith. does not exist&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;Organization&lt;/td&gt;
+		&lt;td&gt;with&lt;/td&gt;
+		&lt;td&gt;1238 - Metropolitan Transportation Agency (MTA)&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor6"&gt;
+		&lt;td&gt;wait for &lt;span class="error"&gt;The instance scriptTableActor.waitFor. does not exist&lt;/span&gt;&lt;/td&gt;
+		&lt;td colspan="3"&gt;+4 seconds&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor4"&gt;
+		&lt;td&gt;select grid &lt;span class="error"&gt;The instance scriptTableActor.selectGridRow. does not exist&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;[2]&lt;/td&gt;
+		&lt;td&gt;row&lt;/td&gt;
+		&lt;td&gt;[1]&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor6"&gt;
+		&lt;td&gt;wait for &lt;span class="error"&gt;The instance scriptTableActor.waitFor. does not exist&lt;/span&gt;&lt;/td&gt;
+		&lt;td colspan="3"&gt;+10 seconds&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor1"&gt;
+		&lt;td&gt;click on button &lt;span class="error"&gt;The instance scriptTableActor.clickOnButton. does not exist&lt;/span&gt;&lt;/td&gt;
+		&lt;td colspan="3"&gt;Add[2]&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor6"&gt;
+		&lt;td&gt;wait for &lt;span class="error"&gt;The instance scriptTableActor.waitFor. does not exist&lt;/span&gt;&lt;/td&gt;
+		&lt;td colspan="3"&gt;+4 seconds&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor1"&gt;
+		&lt;td&gt;click on button &lt;span class="error"&gt;The instance scriptTableActor.clickOnButton. does not exist&lt;/span&gt;&lt;/td&gt;
+		&lt;td colspan="3"&gt;Create&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;br/&gt;&lt;div class="collapsible closed"&gt;&lt;ul&gt;&lt;li&gt;&lt;a href='#' class='expandall'&gt;Expand&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='#' class='collapseall'&gt;Collapse&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+	&lt;p class="title"&gt;Scenario Libraries&lt;/p&gt;
+	&lt;div&gt;&lt;div class="collapsible closed"&gt;&lt;ul&gt;&lt;li&gt;&lt;a href='#' class='expandall'&gt;Expand&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='#' class='collapseall'&gt;Collapse&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+	&lt;p class="title"&gt;Included page: &lt;a href="ScenarioLibrary"&gt;.ScenarioLibrary&lt;/a&gt; &lt;a href="ScenarioLibrary?edit&amp;amp;redirectToReferer=true&amp;amp;redirectAction=" class="edit"&gt;(edit)&lt;/a&gt;&lt;/p&gt;
+	&lt;div&gt;&lt;h2&gt;These scenarios will be accessible to all test cases in the the FitNesseRoot folder. If you are using a different FitNesseRoot Folder, make sure to copy these files if using any setup scenarios.&lt;/h2&gt;
+&lt;br/&gt;&lt;h3&gt;Update these variables for your specific test environment&lt;/h3&gt;
+&lt;br/&gt;&lt;div class="collapsible"&gt;&lt;ul&gt;&lt;li&gt;&lt;a href='#' class='expandall'&gt;Expand&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='#' class='collapseall'&gt;Collapse&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+	&lt;p class="title"&gt;Variables for Scenarios&lt;/p&gt;
+	&lt;div&gt;Default browser can be &lt;b&gt;FIREFOX&lt;/b&gt;, &lt;b&gt;CHROME&lt;/b&gt;, or &lt;b&gt;IE&lt;/b&gt;&lt;br/&gt;&lt;span class="meta"&gt;variable defined: defaultBrowser=CHROME&lt;/span&gt;
+&lt;br/&gt;&lt;br/&gt;Default Version can be &lt;b&gt;17.2&lt;/b&gt;, &lt;b&gt;17.1&lt;/b&gt;, &lt;b&gt;16.3&lt;/b&gt;, &lt;b&gt;16.2&lt;/b&gt;, &lt;b&gt;16.1&lt;/b&gt;, &lt;b&gt;7.11&lt;/b&gt;, or &lt;b&gt;7.10&lt;/b&gt;&lt;br/&gt;&lt;span class="meta"&gt;variable defined: defaultVersion=17.2&lt;/span&gt;
+&lt;br/&gt;&lt;br/&gt;Default Locale can be &lt;b&gt;en_US&lt;/b&gt; or &lt;b&gt;en_GB&lt;/b&gt;&lt;br/&gt;&lt;span class="meta"&gt;variable defined: defaultLocale=en_US&lt;/span&gt;
+&lt;br/&gt;&lt;br/&gt;Default URL should include http or https and /suite (e.g. &lt;b&gt;https://forum.appian.com/suite&lt;/b&gt; )&lt;br/&gt;&lt;span class="meta"&gt;variable defined: defaultUrl=REPLACE_APPIAN_URL&lt;/span&gt;
+&lt;br/&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;br/&gt;&lt;h3&gt;To use out of the box functionality, do not update the scenarios below&lt;/h3&gt;
+&lt;br/&gt;&lt;div class="collapsible"&gt;&lt;ul&gt;&lt;li&gt;&lt;a href='#' class='expandall'&gt;Expand&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='#' class='collapseall'&gt;Collapse&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+	&lt;p class="title"&gt;Setup customizable for browser, locale, version, and URL&lt;/p&gt;
+	&lt;div&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;setup for test script for browser&lt;/td&gt;
+		&lt;td&gt;browserType&lt;/td&gt;
+		&lt;td&gt;locale&lt;/td&gt;
+		&lt;td&gt;location&lt;/td&gt;
+		&lt;td&gt;version&lt;/td&gt;
+		&lt;td&gt;versionNum&lt;/td&gt;
+		&lt;td&gt;url&lt;/td&gt;
+		&lt;td&gt;appianUrl&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor1"&gt;
+		&lt;td&gt;setup with browser&lt;/td&gt;
+		&lt;td colspan="8"&gt;@browserType&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor2"&gt;
+		&lt;td&gt;set appian locale to&lt;/td&gt;
+		&lt;td colspan="8"&gt;@location&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor2"&gt;
+		&lt;td&gt;set appian version to&lt;/td&gt;
+		&lt;td colspan="8"&gt;@versionNum&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor7"&gt;
+		&lt;td&gt;set appian url to&lt;/td&gt;
+		&lt;td colspan="8"&gt;@appianUrl&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor1"&gt;
+		&lt;td&gt;set timeout seconds to&lt;/td&gt;
+		&lt;td colspan="8"&gt;20&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor9"&gt;
+		&lt;td colspan="9"&gt;set start datetime&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;br/&gt;&lt;div class="collapsible"&gt;&lt;ul&gt;&lt;li&gt;&lt;a href='#' class='expandall'&gt;Expand&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='#' class='collapseall'&gt;Collapse&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+	&lt;p class="title"&gt;Scenario - Setup using default values &lt;/p&gt;
+	&lt;div&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td colspan="7"&gt;setup for test script&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor6"&gt;
+		&lt;td&gt;setup for test script for browser&lt;/td&gt;
+		&lt;td&gt;CHROME&lt;/td&gt;
+		&lt;td&gt;locale&lt;/td&gt;
+		&lt;td&gt;en_US&lt;/td&gt;
+		&lt;td&gt;version&lt;/td&gt;
+		&lt;td&gt;17.2&lt;/td&gt;
+		&lt;td&gt;url&lt;/td&gt;
+		&lt;td&gt;REPLACE_APPIAN_URL&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="collapsible closed"&gt;&lt;ul&gt;&lt;li&gt;&lt;a href='#' class='expandall'&gt;Expand&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='#' class='collapseall'&gt;Collapse&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+	&lt;p class="title"&gt;Included page: &lt;a href="FitNesseForAppian.FACES_Action_CreateNewUser.ScenarioLibrary"&gt;.FitNesseForAppian.FACES_Action_CreateNewUser.ScenarioLibrary&lt;/a&gt; &lt;a href="FitNesseForAppian.FACES_Action_CreateNewUser.ScenarioLibrary?edit&amp;amp;redirectToReferer=true&amp;amp;redirectAction=" class="edit"&gt;(edit)&lt;/a&gt;&lt;/p&gt;
+	&lt;div&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;file upload to nodes&lt;/td&gt;
+		&lt;td&gt;Node&lt;/td&gt;
+		&lt;td colspan="3"&gt;@Node&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor3"&gt;
+		&lt;td&gt;click on application filter&lt;/td&gt;
+		&lt;td colspan="5"&gt;TESS Administrator Utilities&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor6"&gt;
+		&lt;td&gt;wait for&lt;/td&gt;
+		&lt;td colspan="5"&gt;+4 seconds&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor1"&gt;
+		&lt;td&gt;click on action&lt;/td&gt;
+		&lt;td colspan="5"&gt;User Login Upload Utility&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor6"&gt;
+		&lt;td&gt;wait for&lt;/td&gt;
+		&lt;td colspan="5"&gt;+4 seconds&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor2"&gt;
+		&lt;td&gt;populate field&lt;/td&gt;
+		&lt;td&gt;Selected Node&lt;/td&gt;
+		&lt;td&gt;with&lt;/td&gt;
+		&lt;td colspan="3"&gt;@Node&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor6"&gt;
+		&lt;td&gt;wait for&lt;/td&gt;
+		&lt;td colspan="5"&gt;+4 seconds&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor4"&gt;
+		&lt;td&gt;populate&lt;/td&gt;
+		&lt;td&gt;FILE_UPLOAD&lt;/td&gt;
+		&lt;td&gt;field&lt;/td&gt;
+		&lt;td&gt;[1]&lt;/td&gt;
+		&lt;td&gt;with&lt;/td&gt;
+		&lt;td&gt;C:/FitNesseForAppian\FitNesseRoot\FrontPage\TESS_FTA_Testcases\Downloads\login-audit.csv.2018-10-18&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor1"&gt;
+		&lt;td&gt;click on button&lt;/td&gt;
+		&lt;td colspan="5"&gt;Submit&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;script&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;tear down &lt;span class="error"&gt;The instance scriptTableActor.tearDown. does not exist&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+</content>
+    <relativePageName>SuiteTearDown</relativePageName>
+            <instructions>
+            <instructionResult>
+        <instruction>{id='scriptTable_3_0', instruction='call', instanceName='scriptTableActor', methodName='tearDown', args=[]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>scriptTable_3_0</instructionId>
+                              <type>ScriptActionExpectation</type>
+                                        <evaluationMessage>The instance scriptTableActor.tearDown. does not exist</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+          </instructions>
+      </result>
+  <executionLog>
+    <testSystem>slim:fitnesse.slim.SlimService</testSystem>
+    <command>java -Dlog4j.configuration=file:///C:/FitNesseForAppian/log4j.properties -cp C:\FitNesseForAppian\lib\fitnesse-20160515-standalone.jar;C:\FitNesseForAppian\lib\accessors-smart-1.1.jar;C:\FitNesseForAppian\lib\asm-5.0.3.jar;C:\FitNesseForAppian\lib\cglib-nodep-3.2.4.jar;C:\FitNesseForAppian\lib\commons-codec-1.10.jar;C:\FitNesseForAppian\lib\commons-exec-1.3.jar;C:\FitNesseForAppian\lib\commons-io-2.5.jar;C:\FitNesseForAppian\lib\commons-lang3-3.0.jar;C:\FitNesseForAppian\lib\commons-logging-1.2.jar;C:\FitNesseForAppian\lib\cssparser-0.9.22.jar;C:\FitNesseForAppian\lib\fitnesse-20160515-standalone.jar;C:\FitNesseForAppian\lib\gson-2.8.0.jar;C:\FitNesseForAppian\lib\guava-21.0.jar;C:\FitNesseForAppian\lib\hamcrest-core-1.3.jar;C:\FitNesseForAppian\lib\htmlunit-2.26.jar;C:\FitNesseForAppian\lib\htmlunit-core-js-2.26.jar;C:\FitNesseForAppian\lib\htmlunit-driver-2.26.jar;C:\FitNesseForAppian\lib\httpclient-4.5.3.jar;C:\FitNesseForAppian\lib\httpcore-4.4.6.jar;C:\FitNesseForAppian\lib\httpmime-4.5.3.jar;C:\FitNesseForAppian\lib\jackson-annotations-2.4.0.jar;C:\FitNesseForAppian\lib\jackson-core-2.4.1.1.jar;C:\FitNesseForAppian\lib\jackson-databind-2.4.1.3.jar;C:\FitNesseForAppian\lib\javax.servlet-api-3.1.0.jar;C:\FitNesseForAppian\lib\jcip-annotations-1.0.jar;C:\FitNesseForAppian\lib\jcommander-1.48.jar;C:\FitNesseForAppian\lib\jetty-client-9.4.3.v20170317.jar;C:\FitNesseForAppian\lib\jetty-http-9.4.3.v20170317.jar;C:\FitNesseForAppian\lib\jetty-io-9.4.1.v20170120.jar;C:\FitNesseForAppian\lib\jetty-repacked-9.4.1.v20170120.jar;C:\FitNesseForAppian\lib\jetty-util-9.4.1.v20170120.jar;C:\FitNesseForAppian\lib\jna-4.1.0.jar;C:\FitNesseForAppian\lib\jna-platform-4.1.0.jar;C:\FitNesseForAppian\lib\json-path-2.2.0.jar;C:\FitNesseForAppian\lib\json-smart-2.2.1.jar;C:\FitNesseForAppian\lib\log4j-1.2.16.jar;C:\FitNesseForAppian\lib\neko-htmlunit-2.25.jar;C:\FitNesseForAppian\lib\phantomjsdriver-1.4.0.jar;C:\FitNesseForAppian\lib\sac-1.3.jar;C:\FitNesseForAppian\lib\selenium-api-3.4.0.jar;C:\FitNesseForAppian\lib\selenium-chrome-driver-3.4.0.jar;C:\FitNesseForAppian\lib\selenium-edge-driver-3.4.0.jar;C:\FitNesseForAppian\lib\selenium-firefox-driver-3.4.0.jar;C:\FitNesseForAppian\lib\selenium-ie-driver-3.4.0.jar;C:\FitNesseForAppian\lib\selenium-java-3.4.0.jar;C:\FitNesseForAppian\lib\selenium-opera-driver-3.4.0.jar;C:\FitNesseForAppian\lib\selenium-remote-driver-3.4.0.jar;C:\FitNesseForAppian\lib\selenium-safari-driver-3.4.0.jar;C:\FitNesseForAppian\lib\selenium-server-3.4.0.jar;C:\FitNesseForAppian\lib\selenium-support-3.4.0.jar;C:\FitNesseForAppian\lib\serializer-2.7.2.jar;C:\FitNesseForAppian\lib\slf4j-api-1.7.16.jar;C:\FitNesseForAppian\lib\snakeyaml-1.15.jar;C:\FitNesseForAppian\lib\websocket-api-9.4.3.v20170317.jar;C:\FitNesseForAppian\lib\websocket-client-9.4.3.v20170317.jar;C:\FitNesseForAppian\lib\websocket-common-9.4.3.v20170317.jar;C:\FitNesseForAppian\lib\xalan-2.7.2.jar;C:\FitNesseForAppian\lib\xercesImpl-2.11.0.jar;C:\FitNesseForAppian\lib\xml-apis-1.4.01.jar;C:\FitNesseForAppian\lib\appian\fitnesse-for-appian-18.2.1.jar fitnesse.slim.SlimService 8087</command>
+    <exitCode>0</exitCode>
+    <stdOut></stdOut>
+    <stdErr></stdErr>
+  </executionLog>
+  <finalCounts>
+    <right>0</right>
+    <wrong>0</wrong>
+    <ignores>0</ignores>
+    <exceptions>3</exceptions>
+  </finalCounts>
+  <totalRunTimeInMillis>1964</totalRunTimeInMillis>
+</testResults>
+

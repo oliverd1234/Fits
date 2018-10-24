@@ -1,0 +1,468 @@
+<?xml version="1.0"?>
+<testResults>
+  <FitNesseVersion>v20160515</FitNesseVersion>
+  <rootPath>FitNesseForAppian.DGS_Perform_Prelim_Review_Action.Choose_Eligibility_Test_Suite.Manage_Those_Programs</rootPath>
+    <result>
+    <counts>
+      <right>0</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <date>2018-10-24T13:09:43-04:00</date>
+    <runTimeInMillis>5060</runTimeInMillis>
+    <content></content>
+    <relativePageName>SuiteSetUp</relativePageName>
+            <instructions>
+            <instructionResult>
+        <instruction>{id='scriptTable_2_0', instruction='make', instanceName='scriptTableActor', className='com.appiancorp.ps.automatedtest.fixture.FTALoginFixture', args=[]}</instruction>
+        <slimResult>pass(com.appiancorp.ps.automatedtest.fixture.FTALoginFixture)</slimResult>
+                <expectation>
+                    <status>pass</status>
+                    <instructionId>scriptTable_2_0</instructionId>
+                    <col>1</col>
+                              <row>0</row>
+                    <type>ConstructionExpectation</type>
+                                        <evaluationMessage>com.appiancorp.ps.automatedtest.fixture.FTALoginFixture</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_2_1', instruction='call', instanceName='scriptTableActor', methodName='setupWithBrowser', args=[CHROME]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <instructionId>scriptTable_2_1</instructionId>
+                    <col>0</col>
+                              <row>1</row>
+                    <type>ScriptActionExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_2_2', instruction='call', instanceName='scriptTableActor', methodName='setAppianUrlTo', args=[https://facesdev4.fta.dot.gov/suite/tempo]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <instructionId>scriptTable_2_2</instructionId>
+                    <col>0</col>
+                              <row>2</row>
+                    <type>ScriptActionExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_2_3', instruction='call', instanceName='scriptTableActor', methodName='setAppianVersionTo', args=[18.2]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <instructionId>scriptTable_2_3</instructionId>
+                    <col>0</col>
+                              <row>3</row>
+                    <type>ScriptActionExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_2_4', instruction='call', instanceName='scriptTableActor', methodName='setAppianLocaleTo', args=[en_US]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <instructionId>scriptTable_2_4</instructionId>
+                    <col>0</col>
+                              <row>4</row>
+                    <type>ScriptActionExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_2_5', instruction='call', instanceName='scriptTableActor', methodName='setTimeoutSecondsTo', args=[40]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <instructionId>scriptTable_2_5</instructionId>
+                    <col>0</col>
+                              <row>5</row>
+                    <type>ScriptActionExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_2_6', instruction='call', instanceName='scriptTableActor', methodName='setScreenshotPathTo', args=[C:/FitNesseForAppian/FitNesseRoot/FACES_Action_CreateNewUser/TESS_FTA_Testcases/screenshot/]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <instructionId>scriptTable_2_6</instructionId>
+                    <col>0</col>
+                              <row>6</row>
+                    <type>ScriptActionExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_2_7', instruction='call', instanceName='scriptTableActor', methodName='setStopOnErrorTo', args=[true]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <instructionId>scriptTable_2_7</instructionId>
+                    <col>0</col>
+                              <row>7</row>
+                    <type>ScriptActionExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_2_8', instruction='call', instanceName='scriptTableActor', methodName='setTakeErrorScreenshotsTo', args=[true]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <instructionId>scriptTable_2_8</instructionId>
+                    <col>0</col>
+                              <row>8</row>
+                    <type>ScriptActionExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_2_9', instruction='call', instanceName='scriptTableActor', methodName='setTestVariableWith', args=[DATEXXX, ${!today(YYYY-MM-DD)}]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <instructionId>scriptTable_2_9</instructionId>
+                    <col>0</col>
+                              <row>9</row>
+                    <type>ScriptActionExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_2_10', instruction='call', instanceName='scriptTableActor', methodName='setStartDatetime', args=[]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <instructionId>scriptTable_2_10</instructionId>
+                    <col>0</col>
+                              <row>10</row>
+                    <type>ScriptActionExpectation</type>
+                                      </expectation>
+              </instructionResult>
+          </instructions>
+      </result>
+  <result>
+    <counts>
+      <right>0</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>2</exceptions>
+    </counts>
+    <date>2018-10-24T13:09:48-04:00</date>
+    <runTimeInMillis>56305</runTimeInMillis>
+    <content>&lt;div class="collapsible closed"&gt;&lt;ul&gt;&lt;li&gt;&lt;a href='#' class='expandall'&gt;Expand&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='#' class='collapseall'&gt;Collapse&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+	&lt;p class="title"&gt;Included page: &lt;a href="ScenarioLibrary"&gt;.ScenarioLibrary&lt;/a&gt; &lt;a href="ScenarioLibrary?edit&amp;amp;redirectToReferer=true&amp;amp;redirectAction=" class="edit"&gt;(edit)&lt;/a&gt;&lt;/p&gt;
+	&lt;div&gt;&lt;h2&gt;These scenarios will be accessible to all test cases in the the FitNesseRoot folder. If you are using a different FitNesseRoot Folder, make sure to copy these files if using any setup scenarios.&lt;/h2&gt;
+&lt;br/&gt;&lt;h3&gt;Update these variables for your specific test environment&lt;/h3&gt;
+&lt;br/&gt;&lt;div class="collapsible"&gt;&lt;ul&gt;&lt;li&gt;&lt;a href='#' class='expandall'&gt;Expand&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='#' class='collapseall'&gt;Collapse&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+	&lt;p class="title"&gt;Variables for Scenarios&lt;/p&gt;
+	&lt;div&gt;Default browser can be &lt;b&gt;FIREFOX&lt;/b&gt;, &lt;b&gt;CHROME&lt;/b&gt;, or &lt;b&gt;IE&lt;/b&gt;&lt;br/&gt;&lt;span class="meta"&gt;variable defined: defaultBrowser=CHROME&lt;/span&gt;
+&lt;br/&gt;&lt;br/&gt;Default Version can be &lt;b&gt;17.2&lt;/b&gt;, &lt;b&gt;17.1&lt;/b&gt;, &lt;b&gt;16.3&lt;/b&gt;, &lt;b&gt;16.2&lt;/b&gt;, &lt;b&gt;16.1&lt;/b&gt;, &lt;b&gt;7.11&lt;/b&gt;, or &lt;b&gt;7.10&lt;/b&gt;&lt;br/&gt;&lt;span class="meta"&gt;variable defined: defaultVersion=17.2&lt;/span&gt;
+&lt;br/&gt;&lt;br/&gt;Default Locale can be &lt;b&gt;en_US&lt;/b&gt; or &lt;b&gt;en_GB&lt;/b&gt;&lt;br/&gt;&lt;span class="meta"&gt;variable defined: defaultLocale=en_US&lt;/span&gt;
+&lt;br/&gt;&lt;br/&gt;Default URL should include http or https and /suite (e.g. &lt;b&gt;https://forum.appian.com/suite&lt;/b&gt; )&lt;br/&gt;&lt;span class="meta"&gt;variable defined: defaultUrl=REPLACE_APPIAN_URL&lt;/span&gt;
+&lt;br/&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;br/&gt;&lt;h3&gt;To use out of the box functionality, do not update the scenarios below&lt;/h3&gt;
+&lt;br/&gt;&lt;div class="collapsible"&gt;&lt;ul&gt;&lt;li&gt;&lt;a href='#' class='expandall'&gt;Expand&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='#' class='collapseall'&gt;Collapse&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+	&lt;p class="title"&gt;Setup customizable for browser, locale, version, and URL&lt;/p&gt;
+	&lt;div&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;setup for test script for browser&lt;/td&gt;
+		&lt;td&gt;browserType&lt;/td&gt;
+		&lt;td&gt;locale&lt;/td&gt;
+		&lt;td&gt;location&lt;/td&gt;
+		&lt;td&gt;version&lt;/td&gt;
+		&lt;td&gt;versionNum&lt;/td&gt;
+		&lt;td&gt;url&lt;/td&gt;
+		&lt;td&gt;appianUrl&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor1"&gt;
+		&lt;td&gt;setup with browser&lt;/td&gt;
+		&lt;td colspan="8"&gt;@browserType&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor2"&gt;
+		&lt;td&gt;set appian locale to&lt;/td&gt;
+		&lt;td colspan="8"&gt;@location&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor2"&gt;
+		&lt;td&gt;set appian version to&lt;/td&gt;
+		&lt;td colspan="8"&gt;@versionNum&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor7"&gt;
+		&lt;td&gt;set appian url to&lt;/td&gt;
+		&lt;td colspan="8"&gt;@appianUrl&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor1"&gt;
+		&lt;td&gt;set timeout seconds to&lt;/td&gt;
+		&lt;td colspan="8"&gt;20&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor9"&gt;
+		&lt;td colspan="9"&gt;set start datetime&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;br/&gt;&lt;div class="collapsible"&gt;&lt;ul&gt;&lt;li&gt;&lt;a href='#' class='expandall'&gt;Expand&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='#' class='collapseall'&gt;Collapse&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+	&lt;p class="title"&gt;Scenario - Setup using default values &lt;/p&gt;
+	&lt;div&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td colspan="7"&gt;setup for test script&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor6"&gt;
+		&lt;td&gt;setup for test script for browser&lt;/td&gt;
+		&lt;td&gt;CHROME&lt;/td&gt;
+		&lt;td&gt;locale&lt;/td&gt;
+		&lt;td&gt;en_US&lt;/td&gt;
+		&lt;td&gt;version&lt;/td&gt;
+		&lt;td&gt;17.2&lt;/td&gt;
+		&lt;td&gt;url&lt;/td&gt;
+		&lt;td&gt;REPLACE_APPIAN_URL&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;br/&gt;&lt;div class="collapsible closed"&gt;&lt;ul&gt;&lt;li&gt;&lt;a href='#' class='expandall'&gt;Expand&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='#' class='collapseall'&gt;Collapse&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+	&lt;p class="title"&gt;Initialization&lt;/p&gt;
+	&lt;div&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;script&lt;/td&gt;
+		&lt;td colspan="3"&gt;&lt;span class="pass"&gt;com.appiancorp.ps.automatedtest.fixture.FTALoginFixture&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor1"&gt;
+		&lt;td&gt;setup with browser&lt;/td&gt;
+		&lt;td colspan="3"&gt;CHROME&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor7"&gt;
+		&lt;td&gt;set appian url to&lt;/td&gt;
+		&lt;td colspan="3"&gt;https://facesdev4.fta.dot.gov/suite/tempo&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor2"&gt;
+		&lt;td&gt;set appian version to&lt;/td&gt;
+		&lt;td colspan="3"&gt;18.2&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor2"&gt;
+		&lt;td&gt;set appian locale to&lt;/td&gt;
+		&lt;td colspan="3"&gt;en_US&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor1"&gt;
+		&lt;td&gt;set timeout seconds to&lt;/td&gt;
+		&lt;td colspan="3"&gt;40&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;set screenshot path to&lt;/td&gt;
+		&lt;td colspan="3"&gt;C:/FitNesseForAppian/FitNesseRoot/FACES_Action_CreateNewUser/TESS_FTA_Testcases/screenshot/&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor6"&gt;
+		&lt;td&gt;set stop on error to&lt;/td&gt;
+		&lt;td colspan="3"&gt;true&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor3"&gt;
+		&lt;td&gt;set take error screenshots to&lt;/td&gt;
+		&lt;td colspan="3"&gt;true&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor2"&gt;
+		&lt;td&gt;set test variable&lt;/td&gt;
+		&lt;td&gt;DATEXXX&lt;/td&gt;
+		&lt;td&gt;with&lt;/td&gt;
+		&lt;td&gt;${!today(YYYY-MM-DD)}&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor9"&gt;
+		&lt;td colspan="4"&gt;set start datetime&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;br/&gt;&lt;br/&gt;&lt;div class="collapsible closed"&gt;&lt;ul&gt;&lt;li&gt;&lt;a href='#' class='expandall'&gt;Expand&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='#' class='collapseall'&gt;Collapse&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+	&lt;p class="title"&gt;Included page: &lt;a href="ScenarioLibrary"&gt;.ScenarioLibrary&lt;/a&gt; &lt;a href="ScenarioLibrary?edit&amp;amp;redirectToReferer=true&amp;amp;redirectAction=" class="edit"&gt;(edit)&lt;/a&gt;&lt;/p&gt;
+	&lt;div&gt;&lt;h2&gt;These scenarios will be accessible to all test cases in the the FitNesseRoot folder. If you are using a different FitNesseRoot Folder, make sure to copy these files if using any setup scenarios.&lt;/h2&gt;
+&lt;br/&gt;&lt;h3&gt;Update these variables for your specific test environment&lt;/h3&gt;
+&lt;br/&gt;&lt;div class="collapsible"&gt;&lt;ul&gt;&lt;li&gt;&lt;a href='#' class='expandall'&gt;Expand&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='#' class='collapseall'&gt;Collapse&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+	&lt;p class="title"&gt;Variables for Scenarios&lt;/p&gt;
+	&lt;div&gt;Default browser can be &lt;b&gt;FIREFOX&lt;/b&gt;, &lt;b&gt;CHROME&lt;/b&gt;, or &lt;b&gt;IE&lt;/b&gt;&lt;br/&gt;&lt;span class="meta"&gt;variable defined: defaultBrowser=CHROME&lt;/span&gt;
+&lt;br/&gt;&lt;br/&gt;Default Version can be &lt;b&gt;17.2&lt;/b&gt;, &lt;b&gt;17.1&lt;/b&gt;, &lt;b&gt;16.3&lt;/b&gt;, &lt;b&gt;16.2&lt;/b&gt;, &lt;b&gt;16.1&lt;/b&gt;, &lt;b&gt;7.11&lt;/b&gt;, or &lt;b&gt;7.10&lt;/b&gt;&lt;br/&gt;&lt;span class="meta"&gt;variable defined: defaultVersion=17.2&lt;/span&gt;
+&lt;br/&gt;&lt;br/&gt;Default Locale can be &lt;b&gt;en_US&lt;/b&gt; or &lt;b&gt;en_GB&lt;/b&gt;&lt;br/&gt;&lt;span class="meta"&gt;variable defined: defaultLocale=en_US&lt;/span&gt;
+&lt;br/&gt;&lt;br/&gt;Default URL should include http or https and /suite (e.g. &lt;b&gt;https://forum.appian.com/suite&lt;/b&gt; )&lt;br/&gt;&lt;span class="meta"&gt;variable defined: defaultUrl=REPLACE_APPIAN_URL&lt;/span&gt;
+&lt;br/&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;br/&gt;&lt;h3&gt;To use out of the box functionality, do not update the scenarios below&lt;/h3&gt;
+&lt;br/&gt;&lt;div class="collapsible"&gt;&lt;ul&gt;&lt;li&gt;&lt;a href='#' class='expandall'&gt;Expand&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='#' class='collapseall'&gt;Collapse&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+	&lt;p class="title"&gt;Setup customizable for browser, locale, version, and URL&lt;/p&gt;
+	&lt;div&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;setup for test script for browser&lt;/td&gt;
+		&lt;td&gt;browserType&lt;/td&gt;
+		&lt;td&gt;locale&lt;/td&gt;
+		&lt;td&gt;location&lt;/td&gt;
+		&lt;td&gt;version&lt;/td&gt;
+		&lt;td&gt;versionNum&lt;/td&gt;
+		&lt;td&gt;url&lt;/td&gt;
+		&lt;td&gt;appianUrl&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor1"&gt;
+		&lt;td&gt;setup with browser&lt;/td&gt;
+		&lt;td colspan="8"&gt;@browserType&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor2"&gt;
+		&lt;td&gt;set appian locale to&lt;/td&gt;
+		&lt;td colspan="8"&gt;@location&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor2"&gt;
+		&lt;td&gt;set appian version to&lt;/td&gt;
+		&lt;td colspan="8"&gt;@versionNum&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor7"&gt;
+		&lt;td&gt;set appian url to&lt;/td&gt;
+		&lt;td colspan="8"&gt;@appianUrl&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor1"&gt;
+		&lt;td&gt;set timeout seconds to&lt;/td&gt;
+		&lt;td colspan="8"&gt;20&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor9"&gt;
+		&lt;td colspan="9"&gt;set start datetime&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;br/&gt;&lt;div class="collapsible"&gt;&lt;ul&gt;&lt;li&gt;&lt;a href='#' class='expandall'&gt;Expand&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='#' class='collapseall'&gt;Collapse&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+	&lt;p class="title"&gt;Scenario - Setup using default values &lt;/p&gt;
+	&lt;div&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td colspan="7"&gt;setup for test script&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor6"&gt;
+		&lt;td&gt;setup for test script for browser&lt;/td&gt;
+		&lt;td&gt;CHROME&lt;/td&gt;
+		&lt;td&gt;locale&lt;/td&gt;
+		&lt;td&gt;en_US&lt;/td&gt;
+		&lt;td&gt;version&lt;/td&gt;
+		&lt;td&gt;17.2&lt;/td&gt;
+		&lt;td&gt;url&lt;/td&gt;
+		&lt;td&gt;REPLACE_APPIAN_URL&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;br/&gt;&lt;div class="collapsible closed"&gt;&lt;ul&gt;&lt;li&gt;&lt;a href='#' class='expandall'&gt;Expand&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='#' class='collapseall'&gt;Collapse&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+	&lt;p class="title"&gt;Loginto FTA&lt;/p&gt;
+	&lt;div&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td colspan="4"&gt;script&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor4"&gt;
+		&lt;td&gt;open&lt;/td&gt;
+		&lt;td colspan="3"&gt;https://facesdev4.fta.dot.gov/suite/tempo&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;custom login with username&lt;/td&gt;
+		&lt;td&gt;fitnesse.administrator&lt;/td&gt;
+		&lt;td&gt;and password&lt;/td&gt;
+		&lt;td&gt;Qwertyuiop2@&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor6"&gt;
+		&lt;td&gt;wait for&lt;/td&gt;
+		&lt;td colspan="3"&gt;+6 seconds&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;div class="collapsible closed"&gt;&lt;ul&gt;&lt;li&gt;&lt;a href='#' class='expandall'&gt;Expand&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='#' class='collapseall'&gt;Collapse&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+	&lt;p class="title"&gt;Click on Actions - &amp;gt; Manage Program Types&lt;/p&gt;
+	&lt;div&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td colspan="2"&gt;script&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor3"&gt;
+		&lt;td&gt;click on link &lt;span class="fail"&gt;Object not found: Wait for Link - Action&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;Action&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor6"&gt;
+		&lt;td&gt;wait for &lt;span class="ignore"&gt;Test not run&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;+4 seconds&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor1"&gt;
+		&lt;td&gt;click on action &lt;span class="ignore"&gt;Test not run&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;Manage Program Types&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor6"&gt;
+		&lt;td&gt;wait for &lt;span class="ignore"&gt;Test not run&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;+4 seconds&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;br/&gt;&lt;br/&gt;&lt;div class="collapsible closed"&gt;&lt;ul&gt;&lt;li&gt;&lt;a href='#' class='expandall'&gt;Expand&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='#' class='collapseall'&gt;Collapse&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+	&lt;p class="title"&gt;Populate Grid Elements &lt;/p&gt;
+	&lt;div&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td colspan="6"&gt;script&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor5"&gt;
+		&lt;td&gt;click on grid &lt;span class="ignore"&gt;Test not run&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;&lt;/td&gt;
+		&lt;td&gt;column&lt;/td&gt;
+		&lt;td&gt;Name&lt;/td&gt;
+		&lt;td&gt;row&lt;/td&gt;
+		&lt;td&gt;1&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;table&gt;
+	&lt;tr&gt;
+		&lt;td&gt;click on button &lt;span class="error"&gt;&lt;strong&gt; click on button: Bad table! DecisionTables should have at least three rows.&lt;/strong&gt;&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;Edit Program Details&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;click on button&lt;/td&gt;
+		&lt;td&gt;Cancel&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;br/&gt;</content>
+    <relativePageName>Manage_Those_Programs</relativePageName>
+            <instructions>
+            <instructionResult>
+        <instruction>{id='scriptTable_2_0', instruction='call', instanceName='scriptTableActor', methodName='open', args=[https://facesdev4.fta.dot.gov/suite/tempo]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <instructionId>scriptTable_2_0</instructionId>
+                    <col>0</col>
+                              <row>1</row>
+                    <type>ScriptActionExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_2_1', instruction='call', instanceName='scriptTableActor', methodName='customLoginWithUsernameAndPassword', args=[fitnesse.administrator, Qwertyuiop2@]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <instructionId>scriptTable_2_1</instructionId>
+                    <col>0</col>
+                              <row>2</row>
+                    <type>ScriptActionExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_2_2', instruction='call', instanceName='scriptTableActor', methodName='waitFor', args=[+6 seconds]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <instructionId>scriptTable_2_2</instructionId>
+                    <col>0</col>
+                              <row>3</row>
+                    <type>ScriptActionExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_3_0', instruction='call', instanceName='scriptTableActor', methodName='clickOnLink', args=[Action]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <status>fail</status>
+                    <instructionId>scriptTable_3_0</instructionId>
+                              <type>ScriptActionExpectation</type>
+                                        <evaluationMessage>Object not found: Wait for Link - Action</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_3_1', instruction='call', instanceName='scriptTableActor', methodName='waitFor', args=[+4 seconds]}</instruction>
+        <slimResult>ignore(Test not run)</slimResult>
+                <expectation>
+                    <status>ignore</status>
+                    <instructionId>scriptTable_3_1</instructionId>
+                    <col>0</col>
+                              <row>2</row>
+                    <type>ScriptActionExpectation</type>
+                                        <evaluationMessage>Test not run</evaluationMessag

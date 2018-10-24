@@ -1,0 +1,32 @@
+!***> Loginto FTA
+!|script                                                           |
+|open                      |${URL}                                 |
+|custom login with username|trams.sri.um3|and password|Qwertyuiop2@|
+|wait for                  |${wait}                                |
+***!
+
+!***> Click on Actions to Unlock My Account from FTA Dev
+|script                                                     |
+|click on link              |Action                         |
+|wait for                   |${wait1}                       |
+|click on application filter|FTA Access Control Entry System|
+|wait for                   |${wait1}                       |
+|click on action            |Unlock My Account              |
+|wait for                   |${wait1}                       |
+***!
+
+!***> Select Unlock Account Option 
+!|script                                                    |
+|click on radio option|Send a request to unlock your account|
+|wait for             |${wait1}                             |
+
+***!
+
+!***> Comments for submitting Unlock Request
+|script                                                                              |
+|populate       |PARAGRAPH|field|[1]|with|Automated Unlock Request Submission Testing|
+|wait for       |${wait1}                                                            |
+|click on button|Submit                                                              |
+***!
+
+

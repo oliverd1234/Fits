@@ -1,0 +1,27 @@
+!***> FitNesse Configurations
+!define TEST_SYSTEM {slim}
+!define COMMAND_PATTERN {java -Dlog4j.configuration=file:///${automated.testing.home}/log4j.properties -cp %p %m}
+!path ${automated.testing.home}/**.jar
+***!
+
+!***> Filepaths & URL's
+!define URL {https://adfs.dot.gov/adfs/ls/idpinitiatedsignon.aspx?loginToRp=AppianRP }
+***!
+
+!***> Variables
+!define Date {!today (yyyy-MM-dd)}
+!define filepath {${automated.testing.home}\FitNesseRoot\FrontPage\TESS_FTA_Testcases\Downloads\login-audit.csv.${Date}}
+!define hil {https://hildev.appiancloud.com/suite/shared-logs/hildev/}
+!define ftaDev {https://facesdev1.fta.dot.gov/suite/shared-logs/facesdev1/}
+!define ftaNode1 {https://faces.fta.dot.gov/suite/shared-logs/faces-jboss1/}
+!define ftaNode2 {https://faces.fta.dot.gov/suite/shared-logs/faces-jboss2/}
+!define ftaNode3 {https://faces.fta.dot.gov/suite/shared-logs/faces-jboss3/}
+!define ftaNode4 {https://faces.fta.dot.gov/suite/shared-logs/faces-jboss4/}
+
+!define Appian {https://faces.fta.dot.gov/suite/tempo}
+!define appianDev {https://facesdev1.fta.dot.gov/suite/tempo}
+!define wait {+5 seconds}
+!define wait1 {+3 seconds} 
+***!
+
+!contents -R2 -g -p -f -h
